@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 import Logo from "./Logo"
 import Homepage from './Homepage';
 import Homepage2 from './Homepage2';
-import FAQ from './FAQ'
-import Team from "./Team"
+import FAQ from './FAQ';
+import Team from "./Team";
 function App() {
   return (
     <>
