@@ -22,7 +22,10 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className={`navbar-links ${isMenuOpen ? "open" : ""}`}>
         <li className="navbar-item dropdown">
-          <button className="dropdown-btn" onClick={() => toggleDropdown("classes")}>
+          <button
+            className="dropdown-btn"
+            onClick={() => toggleDropdown("classes")}
+          >
             <Palette className="icon" />
             Art Classes
           </button>
@@ -30,13 +33,14 @@ const Navbar = () => {
             <ul className="dropdown-menu">
               <li className="dropdown-item">Regular Classes</li>
               <li className="dropdown-item">Adult Classes</li>
-              <li className="dropdown-item">Charter Schools</li>
-              <li className="dropdown-item">Girl & Boy Scout Classes</li>
             </ul>
           )}
         </li>
         <li className="navbar-item dropdown">
-          <button className="dropdown-btn" onClick={() => toggleDropdown("locations")}>
+          <button
+            className="dropdown-btn"
+            onClick={() => toggleDropdown("locations")}
+          >
             <MapPin className="icon" />
             Locations
           </button>
@@ -49,45 +53,57 @@ const Navbar = () => {
           )}
         </li>
         <li className="navbar-item dropdown">
-          <button className="dropdown-btn" onClick={() => toggleDropdown("camps")}>
+          <button
+            className="dropdown-btn"
+            onClick={() => toggleDropdown("camps")}
+          >
             <Brush className="icon" />
-            Art Camps
+            Summer Art Camps
           </button>
           {isDropdownOpen.camps && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Summer Camps</li>
-              <li className="dropdown-item">Spring Camps</li>
-              <li className="dropdown-item">Holiday Camps</li>
+              <li className="dropdown-item">Summer Art Camp Schedule</li>
             </ul>
           )}
         </li>
         <li className="navbar-item dropdown">
-          <button className="dropdown-btn" onClick={() => toggleDropdown("parties")}>
+          <button
+            className="dropdown-btn"
+            onClick={() => toggleDropdown("parties")}
+          >
             <PartyPopper className="icon" />
-            Art Parties
+            Art Parties & Events
           </button>
           {isDropdownOpen.parties && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Birthday Parties</li>
+              <li className="dropdown-item">Birthday Art Parties</li>
               <li className="dropdown-item">Paint Parties</li>
+              <li className="dropdown-item">Boy & Girl Scout Group Classes</li>
             </ul>
           )}
         </li>
         <li className="navbar-item dropdown">
-          <button className="dropdown-btn" onClick={() => toggleDropdown("tuition")}>
+          <button
+            className="dropdown-btn"
+            onClick={() => toggleDropdown("tuition")}
+          >
             <CreditCard className="icon" />
             Tuition
           </button>
           {isDropdownOpen.tuition && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Tuition Policies</li>
+              <li className="dropdown-item">Tuition Rates</li>
+              <li className="dropdown-item">Studio Policies</li>
               <li className="dropdown-item">Pay Tuition</li>
-              <li className="dropdown-item">FAQs</li>
+              <li className="dropdown-item">Charter School Billing</li>
             </ul>
           )}
         </li>
         <li className="navbar-item dropdown">
-          <button className="dropdown-btn" onClick={() => toggleDropdown("about")}>
+          <button
+            className="dropdown-btn"
+            onClick={() => toggleDropdown("about")}
+          >
             <PenTool className="icon" />
             About
           </button>
