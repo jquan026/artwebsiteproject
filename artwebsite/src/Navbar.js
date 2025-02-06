@@ -14,6 +14,8 @@ import {LocationsLaMesa} from "./LocationsLaMesa";
 import {LocationsBonita} from "./LocationsBonita";
 import {LocationsSantee} from "./LocationsSantee";
 
+import {AdultArtClasses} from "./AdultArtClasses";
+
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState({});
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +36,8 @@ const Navbar = () => {
           {isDropdownOpen.classes && (
             <ul className="dropdown-menu">
               <li className="dropdown-item">Regular Classes</li>
-              <li className="dropdown-item">Adult Classes</li>
+              <li className="dropdown-item">
+                <a href='/adultArtClasses'>Adult Classes</a></li>
               <li className="dropdown-item">Charter Schools</li>
               <li className="dropdown-item">Girl & Boy Scout Classes</li>
             </ul>

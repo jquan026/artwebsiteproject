@@ -14,6 +14,8 @@ import LocationsLaMesa from './LocationsLaMesa';
 import LocationsBonita from './LocationsBonita';
 import LocationsSantee from './LocationsSantee';
 
+import AdultArtClasses from './AdultArtClasses';
+
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
         <Route path="/locationsLaMesa" element={<LocationsLaMesa />} />
         <Route path="/locationsBonita" element={<LocationsBonita />} />
         <Route path="/locationsSantee" element={<LocationsSantee />} />
+        <Route path="/adultArtClasses" element={<AdultArtClasses />} />
         {/* <Route path="/locations" element={<Locations />} />
         <Route path="/team" element={<Team />} />
         <Route path="/services" element={<Services />} />
