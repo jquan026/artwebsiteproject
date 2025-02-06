@@ -8,11 +8,16 @@ import {
   PenTool,
   Menu
 } from "lucide-react";
-import "./Navbar2.css"; 
+import "./Navbar2.css";
+
+import {LocationsLaMesa} from "./LocationsLaMesa";
+import {LocationsBonita} from "./LocationsBonita";
+import {LocationsSantee} from "./LocationsSantee";
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState({});
-  const [isMenuOpen, setIsMenuOpen] = useState(false); 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
   const toggleDropdown = (tab) => {
     setIsDropdownOpen((prev) => ({ ...prev, [tab]: !prev[tab] }));
@@ -42,9 +47,12 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.locations && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">La Mesa</li>
-              <li className="dropdown-item">Santee</li>
-              <li className="dropdown-item">Bonita</li>
+              <li className="dropdown-item">
+                <a href='/locationsLaMesa'>La Mesa</a></li>
+              <li className="dropdown-item">
+                <a href='/locationsSantee'>Santee</a></li>
+              <li className="dropdown-item">
+                <a href='/locationsBonita'>Bonita</a></li>
             </ul>
           )}
         </li>
