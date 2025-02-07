@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Palette,
   MapPin,
@@ -31,8 +32,12 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.classes && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Regular Classes</li>
-              <li className="dropdown-item">Adult Classes</li>
+              <li className="dropdown-item">
+                <Link to="/regular-classes">Regular Classes</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/adult-classes">Adult Classes</Link>
+              </li>
             </ul>
           )}
         </li>
@@ -46,9 +51,15 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.locations && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">La Mesa</li>
-              <li className="dropdown-item">Santee</li>
-              <li className="dropdown-item">Bonita</li>
+              <li className="dropdown-item">
+                <Link to="/locations/la-mesa">La Mesa</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/locations/santee">Santee</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/locations/bonita">Bonita</Link>
+              </li>
             </ul>
           )}
         </li>
@@ -62,7 +73,9 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.camps && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Summer Art Camp Schedule</li>
+              <li className="dropdown-item">
+                <Link to="/summercamp">Summer Art Camp Schedule</Link>
+              </li>
             </ul>
           )}
         </li>
@@ -76,9 +89,15 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.parties && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Birthday Art Parties</li>
-              <li className="dropdown-item">Paint Parties</li>
-              <li className="dropdown-item">Boy & Girl Scout Group Classes</li>
+              <li className="dropdown-item">
+                <Link to="/birthday-parties">Birthday Art Parties</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/paint-parties">Paint Parties</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/scoutclasses">Boy & Girl Scout Group Classes</Link>
+              </li>
             </ul>
           )}
         </li>
@@ -92,10 +111,16 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.tuition && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Tuition Rates</li>
-              <li className="dropdown-item">Studio Policies</li>
+              <li className="dropdown-item">
+                <Link to="/tuition-rates">Tuition Rates</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/studio-policies">Studio Policies</Link>
+              </li>
               <li className="dropdown-item">Pay Tuition</li>
-              <li className="dropdown-item">Charter School Billing</li>
+              <li className="dropdown-item">
+                <Link to="/charter-schools">Charter School Billing</Link>
+              </li>
             </ul>
           )}
         </li>
@@ -109,9 +134,15 @@ const Navbar = () => {
           </button>
           {isDropdownOpen.about && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">Mission Statement</li>
-              <li className="dropdown-item">Instructors</li>
-              <li className="dropdown-item">FAQs</li>
+              <li className="dropdown-item">
+                <Link to="/mission">Mission Statement</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/instructors">Instructors</Link>
+              </li>
+              <li className="dropdown-item">
+                <Link to="/faq">FAQs</Link>
+              </li>
             </ul>
           )}
         </li>
