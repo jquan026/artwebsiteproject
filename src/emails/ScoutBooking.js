@@ -1,4 +1,5 @@
 import React from "react";
+import "./EmailTemplate.css";
 
 const ScoutBooking = () => {
   const email = "artwithlarisse@gmail.com";
