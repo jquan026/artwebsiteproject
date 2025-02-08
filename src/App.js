@@ -6,6 +6,8 @@ import Homepage from './Homepage';
 import Homepage2 from './Homepage2';
 import FAQ from './FAQ';
 import Team from "./Team";
+import StudioPolicies from './StudioPolicies';
+
 function App() {
   return (
     <>
@@ -15,6 +17,7 @@ function App() {
         <Route path="/" element={<Homepage2 />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/instructors" element={<Team />} />
+        <Route path="/studio-policies" element={<StudioPolicies />} />
       </Routes>
     </>
   );
