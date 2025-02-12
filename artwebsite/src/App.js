@@ -9,6 +9,8 @@ import Team from "./Team";
 import StudioPolicies from './StudioPolicies';
 import BirthdayParties from './BirthdayParties';
 import LocationsLaMesa from './LocationsLaMesa';
+import LocationsSantee from "./LocationsSantee";
+import LocationsBonita from "./LocationsBonita";
 
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
         <Route path="/instructors" element={<Team />} />
         <Route path="/studio-policies" element={<StudioPolicies />} />
         <Route path="/birthday-parties" element={<BirthdayParties />} />
-        <Route path="/la-mesa" element={<LocationsLaMesa />} />
+        <Route path="/locations/la-mesa" element={<LocationsLaMesa />} />
+        <Route path="/locations/santee" element={<LocationsSantee />} />
+        <Route path="/locations/bonita" element={<LocationsBonita />} />
       </Routes>
     </>
   );
