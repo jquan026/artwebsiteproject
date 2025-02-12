@@ -7,7 +7,9 @@ import Homepage2 from './Homepage2';
 import FAQ from './FAQ';
 import Team from "./Team";
 import StudioPolicies from './StudioPolicies';
-import BirthdayParties from './BirthdayParties'
+import BirthdayParties from './BirthdayParties';
+import LocationsLaMesa from './LocationsLaMesa';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/instructors" element={<Team />} />
         <Route path="/studio-policies" element={<StudioPolicies />} />
         <Route path="/birthday-parties" element={<BirthdayParties />} />
+        <Route path="/la-mesa" element={<LocationsLaMesa />} />
       </Routes>
     </>
   );
