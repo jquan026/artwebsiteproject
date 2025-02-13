@@ -13,7 +13,7 @@ function Logo() {
 
     return (
       <div className="logo-container">
-        <Link to="/">
+        <Link to="/" className="logo-link">
           <img src={logo} alt="Logo" className="logo" />
         </Link>
         <TemporaryDrawer open={drawerOpen} onClose={toggleDrawer(false)} />
