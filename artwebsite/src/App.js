@@ -12,6 +12,7 @@ import BirthdayParties from './BirthdayParties';
 import LocationsLaMesa from './LocationsLaMesa';
 import LocationsSantee from "./LocationsSantee";
 import LocationsBonita from "./LocationsBonita";
+import AdultArtClasses from './AdultArtClasses';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/locations/la-mesa" element={<LocationsLaMesa />} />
         <Route path="/locations/santee" element={<LocationsSantee />} />
         <Route path="/locations/bonita" element={<LocationsBonita />} />
+        <Route path="/adult-classes" element={<AdultArtClasses />} />
       </Routes>
       <Footer/>
     </>
