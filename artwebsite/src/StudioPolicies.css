@@ -1,3 +1,6 @@
+.policy-block {
+  padding: 20px 20px;
+}
 .studio-header {
   height: auto;
   max-width: 1100px;
@@ -11,7 +14,7 @@
 }
 
 .studio-title {
-  font-size: 60px;
+  font-size: 35px;
   font-weight: 300;
   padding: 10px 0;
   margin: 0;
@@ -54,7 +57,7 @@
 }
 
 .studio-policy-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 200;
   margin: 20px 0 10px 0;
   color: #333;
