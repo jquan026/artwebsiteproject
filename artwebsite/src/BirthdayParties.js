@@ -4,7 +4,7 @@ import BirthdayBooking from './emails/BirthdayBooking'
 
 const BirthdayParties = () => {
   return (
-    <div>
+    <div className='birthday-section'>
       <p className="birthday-title">Celebrate Your Birthday With Us</p>
       <div className="birthday-header">
         <div className="birthday-intro">
