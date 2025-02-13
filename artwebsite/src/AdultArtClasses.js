@@ -64,9 +64,6 @@ const AdultArtClasses = () => {
                 </div>
             </div>
         </div>
-        <div className='footer'>
-        <Footer />
-      </div>
     </div>
   )
 }

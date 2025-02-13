@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Logo from "./Logo"
 import Homepage from './Homepage';
 import Homepage2 from './Homepage2';
+import Footer from "./Footer"
 import FAQ from './FAQ';
 import Team from "./Team";
 import StudioPolicies from './StudioPolicies';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/locations/santee" element={<LocationsSantee />} />
         <Route path="/locations/bonita" element={<LocationsBonita />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

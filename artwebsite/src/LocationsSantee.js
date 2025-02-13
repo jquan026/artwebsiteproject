@@ -104,9 +104,6 @@ const LocationsSantee = () => {
                     <img src={referAFriendPicture} className="refer-a-friend-pic"></img>
                 </div>
             </div>
-        <div className='footer'>
-        <Footer />
-      </div>
     </div>
   )
 }
