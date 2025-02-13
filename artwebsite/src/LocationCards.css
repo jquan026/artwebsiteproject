@@ -7,7 +7,7 @@
 }
 
 .sub-hidden-text {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   display: none;
 
@@ -19,7 +19,7 @@
 }
 .locations-title p{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -81,7 +81,7 @@
 .card-front {
   background-color: #E3E8E1;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .card-back {
