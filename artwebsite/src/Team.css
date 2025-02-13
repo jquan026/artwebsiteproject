@@ -71,6 +71,10 @@
     width: 100%;
     max-width: 400px;
   }
+
+  .team-item:nth-child(even) {
+    margin-top: 0px;
+}
 }
 
 @media (max-width: 768px) {
@@ -91,6 +95,10 @@
 
   .team-des {
     font-size: 18px;
+  }
+
+  .team-item:nth-child(even) {
+    margin-top: 0px;
   }
 }
 
@@ -114,5 +122,9 @@
 
   .bio {
     max-width: 300px;
+  }
+
+  .team-item:nth-child(even) {
+    margin-top: 0px;
   }
 }
