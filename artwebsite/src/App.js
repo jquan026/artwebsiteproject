@@ -15,6 +15,7 @@ import LocationsBonita from "./LocationsBonita";
 import AdultArtClasses from './AdultArtClasses';
 import AcrylicPaintEvents from './AcrylicPaintEvents';
 import CharterSchool from "./CharterSchool";
+import MissionStatement from './MissionStatement';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/adult-classes" element={<AdultArtClasses />} />
         <Route path="/paint-parties" element={<AcrylicPaintEvents />} />
         <Route path="/charter-schools" element={<CharterSchool />} />
+        <Route path="/mission" element={<MissionStatement />} />
       </Routes>
       <Footer />
     </>
