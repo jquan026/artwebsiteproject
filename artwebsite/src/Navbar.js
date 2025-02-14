@@ -117,7 +117,15 @@ const Navbar = () => {
               <li className="dropdown-item">
                 <Link to="/studio-policies">Studio Policies</Link>
               </li>
-              <li className="dropdown-item">Pay Tuition</li>
+              <li className="dropdown-item">
+                <a
+                  href="https://artwithlarisse.square.site/shop/pay-tuition/2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pay Tuition
+                </a>
+              </li>
               <li className="dropdown-item">
                 <Link to="/charter-schools">Charter School Billing</Link>
               </li>
