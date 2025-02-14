@@ -1,0 +1,83 @@
+.paint-header {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.paint-header-img {
+  width: 65%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.paint-desc-imgs {
+  display: flex; 
+  justify-content: center; 
+  gap: 25px; 
+  flex-wrap: nowrap; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.paint-desc-imgs img {
+  object-fit: contain; 
+  max-width: 100%; 
+  height: auto; 
+}
+
+.paint-center-img1, .paint-center-img3 {
+  width: 30%; 
+  max-width: 150px; 
+  height: auto; 
+}
+
+.paint-center-img2 {
+  width: 20%; 
+  max-width: 200px; 
+  height: auto; 
+}
+
+.paint-description {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%
+}
+
+.paint-description p {
+  margin-top: 10px;
+}
+
+.paint-details {
+  background-color: #DEE3D2;
+  margin-bottom: 20px;
+  border: solid 2px rgb(177, 110, 23, 0.7);
+  border-radius: 10px;
+  padding: 20px 20px;
+  width: 70%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paint-details ul {
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.paint-details p {
+  margin-bottom: 10px;
+}
+
+.paint-subtitle {
+  font-size: 25px;
+}
+
+.paint-contact {
+  text-align: left;
+}
