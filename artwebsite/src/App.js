@@ -13,6 +13,7 @@ import LocationsLaMesa from './LocationsLaMesa';
 import LocationsSantee from "./LocationsSantee";
 import LocationsBonita from "./LocationsBonita";
 import AdultArtClasses from './AdultArtClasses';
+import AcrylicPaintEvents from './AcrylicPaintEvents';
 
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
         <Route path="/locations/santee" element={<LocationsSantee />} />
         <Route path="/locations/bonita" element={<LocationsBonita />} />
         <Route path="/adult-classes" element={<AdultArtClasses />} />
+        <Route path="/paint-parties" element={<AcrylicPaintEvents />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }
