@@ -1,0 +1,67 @@
+.summer-header {
+  text-align: center;
+}
+
+.summer-title {
+  font-size: 35px;
+  padding: 40px 0px;
+}
+
+.summer-intro {
+  font-size: 20px;
+}
+
+.summer-schedule-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  width: 80%; 
+  margin: 100px auto; 
+  border: solid 2px;
+  padding: 20px 20px
+}
+
+.summer-schedule-box {
+  padding: 20px; 
+  text-align: center; 
+  background-color: white; 
+  font-size: 20px;
+}
+
+.summer-schedule-subtext {
+  font-size: 15px;
+}
+
+.summer-subtitle {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.summer-body-intro {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center; 
+  justify-content: center;
+  gap: 30%;
+  padding: 50px;
+}
+
+.summer-body-intro p {
+  text-align: left;
+  width: 40%
+}
+
+.summer-body {
+  text-align: left;
+  width: 70%;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+.summer-body p {
+  margin-bottom: 12px;
+}
+
+.summer-body-subtext {
+  margin: 40px 0px;
+}
+
