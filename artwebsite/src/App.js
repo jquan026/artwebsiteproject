@@ -21,6 +21,7 @@ function App() {
       <Logo classname="logo" />
       <Navbar classname="navbar" />
       <Routes>
+        <Route path="/artwebsiteproject" element={<Homepage2 />} />
         <Route path="/" element={<Homepage2 />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/instructors" element={<Team />} />
@@ -31,7 +32,7 @@ function App() {
         <Route path="/locations/bonita" element={<LocationsBonita />} />
         <Route path="/adult-classes" element={<AdultArtClasses />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }
