@@ -3,7 +3,7 @@ import "./StudioPolicies.css"
 
 const StudioPolicies = () => {
   return (
-    <div>
+    <div className='policy-block'>
       <div className="studio-header">
         <p className="studio-title">Studio Policies</p>
         <p className="studio-intro">

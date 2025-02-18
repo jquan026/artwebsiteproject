@@ -7,7 +7,7 @@
 }
 
 .sub-hidden-text {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   display: none;
 
@@ -19,7 +19,7 @@
 }
 .locations-title p{
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -99,7 +99,7 @@
 }
 
 .card-back h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .card-back span {
@@ -117,15 +117,19 @@
 .studio-page-link {
   padding: 10px 70px;
   border-width: 0px;
-  color: white;
   background-color: rgb(138, 116, 107, 0.7);
   font-size: medium;
   border-radius: 10px;
   margin-top: 15px;
 }
 
-.studio-page-link:hover {
- text-decoration:underline ;
+.studio-page-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.studio-page-link:hover a {
+  text-decoration: underline;
 }
 
 .studioimg {

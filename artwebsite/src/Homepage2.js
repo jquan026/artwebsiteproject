@@ -2,7 +2,6 @@ import React from 'react';
 import './Homepage2.css';
 import LocationCards from './LocationCards';
 import Slides from './Slide'
-import Footer from './Footer'
 import Mission from './Mission'
 
 const Homepage2 = () => {
@@ -22,9 +21,6 @@ const Homepage2 = () => {
       </div>
       <div className='locations'>
         <LocationCards />
-      </div>
-      <div className='footer'>
-        <Footer />
       </div>
     </div>
   );

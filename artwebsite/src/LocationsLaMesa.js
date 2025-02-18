@@ -1,6 +1,5 @@
 import React from "react";
 import './LocationsStudio.css';
-import Footer from './Footer';
 
 import laMesaLocationInside from "./img/lamesalocationinside.jpg";
 import referAFriendPicture from "./img/referafriendpicture.jpg";
@@ -104,9 +103,6 @@ const LocationsLaMesa = () => {
                     <img src={referAFriendPicture} className="refer-a-friend-pic"></img>
                 </div>
             </div>
-        <div className='footer'>
-        <Footer />
-      </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import './LocationCards.css';
+import { Link } from "react-router-dom";
 import lamesafront from "./img/lamesafront.jpg"
 import santeefront from "./img/santeeimg.jpg"
 import bonitafront from "./img/bonitaimg.jpeg"
@@ -12,7 +13,7 @@ const LocationCards = () => {
         <div className="sub-hidden-text">Click on a card for more details!</div>
       </div>
       <div className="card-section">
-        <div className="card"> 
+        <div className="card">
           <div className="card-inner">
             <div className="card-front">
               <p>La Mesa</p>
@@ -26,14 +27,16 @@ const LocationCards = () => {
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 857-1270 </p>
               <p>artwithlarisse@gmail.com</p>
-              <button className="studio-page-link">Learn More</button>
+              <button className="studio-page-link">
+                <Link to="/locations/la-mesa">Learn More</Link>
+              </button>
             </div>
           </div>
         </div>
         <div className="card">
           <div className="card-inner">
             <div className="card-front">
-            <p>Bonita</p>
+              <p>Bonita</p>
               <p className="studio">Studio</p>
               <img src={bonitafront} className="studioimg"></img>
             </div>
@@ -44,7 +47,9 @@ const LocationCards = () => {
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 855 - 2787 </p>
               <p>artwithlarisse@gmail.com</p>
-              <button className="studio-page-link">Learn More</button>
+              <button className="studio-page-link">
+                <Link to="/locations/santee">Learn More</Link>
+              </button>
             </div>
           </div>
         </div>
@@ -62,7 +67,9 @@ const LocationCards = () => {
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 508-1299 </p>
               <p>artwithlarisse@gmail.com</p>
-              <button className="studio-page-link">Learn More</button>
+              <button className="studio-page-link">
+                <Link to="/locations/bonita">Learn More</Link>
+              </button>
             </div>
           </div>
         </div>
