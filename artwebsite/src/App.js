@@ -17,6 +17,7 @@ import AcrylicPaintEvents from './AcrylicPaintEvents';
 import CharterSchool from "./CharterSchool";
 import MissionStatement from './MissionStatement';
 import SummerCamp from './SummerCamp';
+import TuitionRates from './TuitionRates';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/charter-schools" element={<CharterSchool />} />
         <Route path="/mission" element={<MissionStatement />} />
         <Route path="/summercamp" element={<SummerCamp />} />
+        <Route path="/tuition-rates" element={<TuitionRates />} />
       </Routes>
       <Footer />
     </>
