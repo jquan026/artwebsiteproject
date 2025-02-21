@@ -1,5 +1,6 @@
 import React from "react";
 import './LocationsStudio.css';
+import { Link } from "react-router-dom";
 
 import laMesaLocationInside from "./img/lamesalocationinside.jpg";
 import referAFriendPicture from "./img/referafriendpicture.jpg";
@@ -84,7 +85,7 @@ const LocationsLaMesa = () => {
                     <ul>
                         <li>Class time slots are 1 hour and 15 minutes long.</li>
                         <li>The first hour is for art instruction. The last 15 minutes of class is for clean up. Please plan to be at the studio 1 hour after the start of class and students will exit when they are done cleaning up.</li>
-                        <li>If you are looking for more information regarding adult classes, please click here.</li>
+                        <li>If you are looking for more information regarding adult classes, please click <Link to="/adult-classes"> here</Link>.</li>
                     </ul>
                 </div>
             </div>
