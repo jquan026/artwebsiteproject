@@ -1,0 +1,15 @@
+.mission-header {
+  margin: 0 auto;
+  width: 70%
+}
+.mission-pg-title {
+  font-size: 35px;
+  font-weight: 200;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.mission-text p{
+  margin-bottom: 10px;
+  font-size: 20px;
+}

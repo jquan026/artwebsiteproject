@@ -1,0 +1,121 @@
+.charter-title {
+  font-size: 35px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.charter-subtitle, .charter-intro-subtitle {
+  font-size: 30px;
+}
+
+.charter-intro-subtitle {
+  margin: 30px 0px;
+}
+
+.charter-desc {
+  font-size: 20px;
+}
+
+.charter-condition {
+  font-size: 15px;
+}
+
+.charter-header {
+  text-align: center;
+}
+
+.charter-desc {
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.charter-desc p {
+  padding: 5px 0px;
+}
+
+.charter-partnership {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: left; 
+  margin: 20px auto; 
+  background-color: #DEE3D2;
+  width: 60%;
+  padding: 30px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+}
+
+.charter-partnership ul {
+  text-align: left; 
+  font-size: 20px;
+  margin-top: 10px
+}
+
+.charter-partnership li {
+  list-style-position: inside; 
+}
+
+.charter-prices {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.charter-costs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  width: 80%; 
+  margin: 20px auto; 
+}
+
+.charter-costs-box {
+  border: 1px solid #ccc;
+  padding: 10px; 
+  text-align: center; 
+  background-color: #f9f9f9; 
+  font-size: 20px;
+}
+
+.charter-sub-title {
+  font-size: 25px;
+}
+
+.charter-funds {
+  width: 60%;
+  display: block;
+  margin: 30px auto;
+  border: solid 2px;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.fund-steps {
+  border: solid 2px;
+  padding: 20px 20px;
+  margin-top: 10px;
+  background-color: #DEE3D2;
+}
+
+.fund-steps ul {
+  margin-left: 20px;
+}
+
+.fund-subtitle {
+  font-weight:bold;
+}
+
+.charter-policies {
+  background-color: #DEE3D2;
+  padding: 20px 20px;
+  width: 70%;
+  margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+}
+
+.charter-policies ul{
+  margin-left: 20px
+}

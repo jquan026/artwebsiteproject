@@ -36,7 +36,7 @@ Best regards,
 
   return (
     <a href={emailHref} className="email-link">
-      artwithlarisse@gmail.com
+      RSVP Now
     </a>
   );
 };

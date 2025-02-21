@@ -5,7 +5,7 @@ import { AiOutlineFacebook } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import './Footer.css'
 import FAQ from "./FAQ"
-import paintbrush from "./img/paintbrush.png";
+import paintbrush from "./img/footerimg.png";
 
 const Footer = () => {
   
@@ -36,7 +36,9 @@ const Footer = () => {
             FREQUENTLY ASKED QUESTIONS
           </Link>
         </div>
-        <div className="paintbrush-img"></div>
+      </div>
+      <div className="footer-img">
+        <img src={paintbrush} className="paintbrush-img" alt="Paintbrush" />
       </div>
     </div>
   );
