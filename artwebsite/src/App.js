@@ -15,6 +15,11 @@ import LocationsBonita from "./LocationsBonita";
 import AdultArtClasses from './AdultArtClasses';
 import RegularClasses from './RegularClasses';
 import ScoutClasses from './ScoutClasses';
+import AcrylicPaintEvents from "./AcrylicPaintEvents";
+import CharterSchool from "./CharterSchool";
+import MissionStatement from "./MissionStatement";
+import SummerCamp from "./SummerCamp";
+import TuitionRates from "./TuitionRates";
 
 
 function App() {
@@ -35,6 +40,11 @@ function App() {
         <Route path="/adult-classes" element={<AdultArtClasses />} />
         <Route path="/regular-classes" element={<RegularClasses />} />
         <Route path="/scout-classes" element={<ScoutClasses />} />
+        <Route path="/paint-parties" element={<AcrylicPaintEvents />} />
+        <Route path="/charter-schools" element={<CharterSchool />} />
+        <Route path="/mission" element={<MissionStatement />} />
+        <Route path="/summercamp" element={<SummerCamp />} />
+        <Route path="/tuition-rates" element={<TuitionRates />} />
       </Routes>
       <Footer />
     </>
