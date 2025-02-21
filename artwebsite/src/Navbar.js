@@ -96,7 +96,7 @@ const Navbar = () => {
                 <Link to="/paint-parties">Paint Parties</Link>
               </li>
               <li className="dropdown-item">
-                <Link to="/scoutclasses">Boy & Girl Scout Group Classes</Link>
+                <Link to="/scout-classes">Boy & Girl Scout Group Classes</Link>
               </li>
             </ul>
           )}
