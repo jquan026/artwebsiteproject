@@ -13,6 +13,8 @@ import LocationsLaMesa from './LocationsLaMesa';
 import LocationsSantee from "./LocationsSantee";
 import LocationsBonita from "./LocationsBonita";
 import AdultArtClasses from './AdultArtClasses';
+import RegularClasses from './RegularClasses';
+import ScoutClasses from './ScoutClasses';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route path="/locations/santee" element={<LocationsSantee />} />
         <Route path="/locations/bonita" element={<LocationsBonita />} />
         <Route path="/adult-classes" element={<AdultArtClasses />} />
+        <Route path="/regular-classes" element={<RegularClasses />} />
+        <Route path="/scout-classes" element={<ScoutClasses />} />
       </Routes>
       <Footer />
     </>
