@@ -7,6 +7,8 @@
   padding: 10px 0;
   margin: 0;
   text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 .birthday-header {
@@ -19,6 +21,8 @@
   max-width: 1200px;
   padding: 20px;
   box-sizing: border-box;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 
@@ -91,6 +95,7 @@
 .birthday-info ul {
   margin: 0 0 20px 0;
   padding-left: 20px;
+  margin-top:30px;
 }
 
 .birthday-info li {
@@ -129,6 +134,22 @@
 
 .line-container2 {
   background-color: transparent;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.bottom-spacing {
+  margin-bottom: 30px;
+}
+
+.right-spacing {
+  margin-right: 30px;
+}
+
+.text-font{
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
