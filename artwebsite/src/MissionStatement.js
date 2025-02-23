@@ -1,6 +1,12 @@
 import React from "react";
 import "./MissionStatement.css"
 
+import msp1 from "./img/MissionStatementPic1.jpg";
+import msp2 from "./img/MissionStatementPic2.jpg";
+import msp3 from "./img/MissionStatementPic3.jpg";
+import msp4 from "./img/MissionStatementPic4.JPEG";
+import msp5 from "./img/MissionStatementPic5.jpg";
+
 const MissionStatement = () => {
   return (
     <div>
@@ -24,6 +30,31 @@ const MissionStatement = () => {
       <div className='line-container'>
         <div className='line'></div>
       </div>
+
+      <div className='picture-collage'>
+        <div className='2-pic-section'>
+            <div className="photo-container">
+                <img src={msp1} className="pic-image"></img>
+            </div>
+            <div className="photo-container">
+                <img src={msp2} className="pic-image"></img>
+            </div>
+        </div>
+        <div className='1-pic-section'>
+            <div className="photo-container">
+                <img src={msp3} className="pic-image"></img>
+            </div>
+        </div>
+        <div className='2-pic-section'>
+            <div className="photo-container">
+                <img src={msp4} className="pic-image"></img>
+            </div>
+            <div className="photo-container">
+                <img src={msp5} className="pic-image"></img>
+            </div>
+        </div>
+      </div>
+
     </div>
   );
 }

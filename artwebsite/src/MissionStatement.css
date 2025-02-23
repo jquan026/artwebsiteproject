@@ -19,8 +19,45 @@
   height: 2px;
   background-color: black;
   margin: 0 auto;
+  margin-bottom: 0px;
 }
 
 .line-container {
   background-color: transparent;
+}
+
+.picture-collage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.1-pic-section {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.photo-container{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.pic-image{
+  height: 300px;
+  width: auto;
+}
+
+@media (max-width: 800px) {
+    .picture-collage {
+      flex-direction: column;
+    }
+
+    .pic-image{
+      height: 250px;
+      width: auto;
+    }
+
+
 }
