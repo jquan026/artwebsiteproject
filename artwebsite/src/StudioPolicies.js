@@ -16,6 +16,10 @@ const StudioPolicies = () => {
         </p>
       </div>
 
+      <div className='line-container'>
+        <div className='line'></div>
+      </div>
+
       <div className="studio-policies">
         <p className="studio-subtitle">
           Art with Larisse Studio Policies - January 2025

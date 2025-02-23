@@ -24,6 +24,10 @@ const BirthdayParties = () => {
         </div>
       </div>
 
+      <div className='line-container'>
+        <div className='line'></div>
+      </div>
+
       <div className="birthday-body">
         <div className="birthday-section-block">
           <p className="birthday-subtite">What We Offer</p>
@@ -41,6 +45,9 @@ const BirthdayParties = () => {
         </div>
         <div className="birthday-section-block">
           <p className="birthday-subtite">Pricing</p>
+          <div className='line-container2'>
+            <div className='line2'></div>
+          </div>
           <div className="birthday-pricing">
             <div className="package-info">
               <p className="birthday-subtite">Base Price</p>
@@ -51,6 +58,9 @@ const BirthdayParties = () => {
               <p>$25 per additional child</p>
               <p>(up to 20 students)</p>
             </div>
+          </div>
+          <div className='line-container2'>
+            <div className='line2'></div>
           </div>
           <div className="birthday-addon">
             <p className="birthday-subtite">Optional Add-On</p>

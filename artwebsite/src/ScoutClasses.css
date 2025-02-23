@@ -56,6 +56,10 @@
   margin: 0 auto;
 }
 
+.line-container {
+  background-color: transparent;
+}
+
 .scout-detail{
   margin-bottom:20px;
 }

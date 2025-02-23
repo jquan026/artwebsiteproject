@@ -169,6 +169,10 @@ const SummerCamp = () => {
         </div>
       </div>
 
+      <div className='line-container'>
+        <div className='line'></div>
+      </div>
+
       <div className="summer-body">
         <div className="summer-body-intro">
           <p>

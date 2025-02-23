@@ -4,6 +4,17 @@
   font-family: Arial;
 }
 
+.line {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.line-container {
+  background-color: transparent;
+}
+
 .title-text h2{
   font-weight: bold;
   font-size: 35px;

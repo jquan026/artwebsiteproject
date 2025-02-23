@@ -21,6 +21,9 @@ const MissionStatement = () => {
           </p>
         </div>
       </div>
+      <div className='line-container'>
+        <div className='line'></div>
+      </div>
     </div>
   );
 }
