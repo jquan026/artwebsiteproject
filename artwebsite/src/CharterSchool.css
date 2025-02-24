@@ -1,10 +1,17 @@
 .charter-title {
   font-size: 35px;
   font-weight: 200;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom:50px;
+  font-weight: bold;
 }
 
-.charter-subtitle, .charter-intro-subtitle {
+.charter-subtitle{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.charter-intro-subtitle {
   font-size: 30px;
 }
 
@@ -14,6 +21,7 @@
 
 .charter-desc {
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .charter-condition {
@@ -52,11 +60,12 @@
 .charter-partnership ul {
   text-align: left; 
   font-size: 20px;
-  margin-top: 10px
+  margin-top: 20px;
 }
 
 .charter-partnership li {
-  list-style-position: inside; 
+  list-style-position: inside;
+  margin-bottom:5px;
 }
 
 .charter-prices {
@@ -103,6 +112,11 @@
   background-color: #DEE3D2;
 }
 
+.fund-steps p{
+  font-size: 20px;
+  margin-bottom:5px;
+}
+
 .fund-steps ul {
   margin-left: 20px;
 }
@@ -121,5 +135,11 @@
 }
 
 .charter-policies ul{
-  margin-left: 20px
+  margin-top:20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.charter-policies li{
+  margin-bottom:10px;
 }

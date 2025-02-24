@@ -6,7 +6,7 @@ const CharterSchool = () => {
     <div>
       <div className="charter-header">
         <p className="charter-title">Charter School Art Program</p>
-        <p className="charter-intro-subtitle">Welcome to Our Art Program</p>
+        <p className="charter-intro-subtitle">Welcome to Our Art Program!</p>
         <div className="charter-desc">
           <p>
             We are so glad that you have chosen to use our services. We have
