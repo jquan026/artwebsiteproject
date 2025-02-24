@@ -99,7 +99,7 @@ const BirthdayParties = () => {
               <li><span className='bolded'>Payment:</span> Required 7 days before the event</li>
               <li>
                 <span className='bolded'>Final Participation Number:</span> We ask that you provide the number
-                of participants you will have 7 days before your event do we can
+                of participants you will have 7 days before your event so we can
                 send an invoice. If participants cancel or no show to event, no
                 refunds will be given for those participants missing the event.
               </li>
