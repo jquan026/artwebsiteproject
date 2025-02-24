@@ -259,7 +259,7 @@ export default function TemporaryDrawer() {
       {isMobileOrTablet && isButtonVisible && (
         <Button
           onClick={toggleDrawer(true)}
-          style={{ position: "fixed", top: 25, right: 16, color: "black" }}
+          style={{ position: "absolute", top: 25, right: 16, color: "black" }}
         >
           <Menu />
         </Button>
