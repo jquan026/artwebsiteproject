@@ -38,17 +38,18 @@
   margin-bottom:45px;
 }
 
-.bg-rect {
+/* .bg-rect {
   border: 2px;
   background: #DEE3D2;
   border-radius: 25px;
   margin-left: 100px;
   margin-right: 100px;
-}
+} */
 
 .class-options-content {
-  padding-top:30px;
-  padding-bottom:30px;
+  padding: 40px 30px;
+  background: #DEE3D2;
+  border-radius: 10px;
 }
 
 .class-options-texts {
@@ -93,12 +94,24 @@
   margin-right: 15px;
 }
 
+.button2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.button2:hover a {
+  text-decoration: underline;
+}
+
 .about-trials-content {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
   margin-bottom: 50px;
   justify-content: space-around;
+  background-color: #DEE3D2;
+  border-radius: 10px;
+  padding-top: 44px;
 }
 
 .about-trials-pic {
