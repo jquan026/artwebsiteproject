@@ -26,7 +26,9 @@ const LocationCards = () => {
               <p>La Mesa, CA 91942</p>
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 857-1270 </p>
-              <p>artwithlarisse@gmail.com</p>
+              <a className="card-email" href="mailto:artwithlarisse@gmail.com">
+                artwithlarisse@gmail.com
+              </a>
               <button className="studio-page-link">
                 <Link to="/locations/la-mesa">Learn More</Link>
               </button>
@@ -46,7 +48,9 @@ const LocationCards = () => {
               <p>Santee, CA 92071</p>
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 855 - 2787 </p>
-              <p>artwithlarisse@gmail.com</p>
+              <a className="card-email" href="mailto:artwithlarisse@gmail.com">
+                artwithlarisse@gmail.com
+              </a>
               <button className="studio-page-link">
                 <Link to="/locations/santee">Learn More</Link>
               </button>
@@ -66,7 +70,9 @@ const LocationCards = () => {
               <p>Bonita, CA 91902</p>
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 508-1299 </p>
-              <p>artwithlarisse@gmail.com</p>
+              <a className="card-email" href="mailto:artwithlarisse@gmail.com">
+                artwithlarisse@gmail.com
+              </a>
               <button className="studio-page-link">
                 <Link to="/locations/bonita">Learn More</Link>
               </button>

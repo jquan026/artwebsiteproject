@@ -79,13 +79,15 @@
 }
 
 .card-front {
-  background-color: #E3E8E1;
+  background: linear-gradient(rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2)), url('./img/card-front-texture.jpg');
+  background-size: cover;
   font-weight: bold;
   font-size: 25px;
 }
 
 .card-back {
-  background-color: #f1f6f0;
+  background: linear-gradient(rgba(253, 253, 253, 0.5), rgba(253, 253, 253, 0.5)), url('./img/card-back-texture.jpg');
+  background-size: cover;
   transform: rotateY(180deg);
 }
 
@@ -108,6 +110,16 @@
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
+}
+
+.card-back a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.card-email:hover {
+  text-decoration: underline;
 }
 
 .studio {
