@@ -8,7 +8,7 @@ import paintEvent4 from "./img/paintEvent4.jpg";
 const AcrylicPaintEvents = () => {
   return (
     <div>
-      <p className="paint-header">Acrylic Painting Events</p>
+      <p className="paint-header bolded top-spacing bottom-spacing">Acrylic Painting Events</p>
       <div>
         <img
           src={paintEvent1}
@@ -47,7 +47,7 @@ const AcrylicPaintEvents = () => {
         />
       </div>
       <div className="paint-details">
-        <p className="paint-subtitle">Event Details & Pricing</p>
+        <h4 className="paint-subtitle">Event Details & Pricing</h4>
         <ul>
           <li>Cost: $30 per person</li>
           <li>Minimum Attendance: 6 people</li>
@@ -58,11 +58,10 @@ const AcrylicPaintEvents = () => {
           </li>
           <li>Age Requirement: 15 and up</li>
         </ul>
-        <p>
+        <p className="top-spacing">
           If you would like to inquire about more information or set up an
-          event, please email us at
+          event, please email us at: <span className="bolded">artwithlarisse@gmail.com</span>
         </p>
-        <p>artwithlarisse@gmail.com</p>
         <p>
           If you are looking to host an event at a private location other than
           at the studio. Please reach out to us and we can provide more
