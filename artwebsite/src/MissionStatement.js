@@ -32,7 +32,7 @@ const MissionStatement = () => {
       </div>
 
       <div className='picture-collage'>
-        <div className='2-pic-section'>
+        <div className='two-pic-section'>
             <div className="photo-container">
                 <img src={msp1} className="pic-image"></img>
             </div>
@@ -40,12 +40,12 @@ const MissionStatement = () => {
                 <img src={msp2} className="pic-image"></img>
             </div>
         </div>
-        <div className='1-pic-section'>
+        <div className='one-pic-section'>
             <div className="photo-container">
                 <img src={msp3} className="pic-image"></img>
             </div>
         </div>
-        <div className='2-pic-section'>
+        <div className='tw-pic-section'>
             <div className="photo-container">
                 <img src={msp4} className="pic-image"></img>
             </div>

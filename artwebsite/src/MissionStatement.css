@@ -31,9 +31,10 @@
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 50px;
+  align-items: center;
 }
 
-.1-pic-section {
+.one-pic-section {
   display: flex;
   flex-direction: column;
 
