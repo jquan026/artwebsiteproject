@@ -10,7 +10,7 @@ const LocationsBonita = () => {
     <div className="locations-studio">
         <div className="title-text">
             <h2>Bonita Location</h2>
-            <p>Established in March 2015</p>
+            <p>Established in 2015</p>
         </div>
         <div className="studio-photo">
             <img src={bonitaLocationInside} className="studio-pic"></img>
