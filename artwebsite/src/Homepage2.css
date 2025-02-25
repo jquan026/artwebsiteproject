@@ -1,17 +1,17 @@
 .carousel{
   margin-bottom: 70px;
-  background-color: #FAF8F6;
+  background-color: white;
   width: 100%; 
   box-sizing: border-box;
 }
 
 .mission {
-  background-color: #FAF8F6;
+  background-color: white;
   margin-bottom: 0;
 }
 
 .locations {
-  background-color: #FAF8F6; 
+  background-color: white; 
   padding-bottom: 20px;
 }
 
@@ -23,6 +23,6 @@
 }
 
 .line-container {
-  background-color: #FAF8F6; 
+  background-color: white; 
 }
 
