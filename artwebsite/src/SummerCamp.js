@@ -1,24 +1,26 @@
 import React from "react";
 import "./SummerCamp.css";
-import SummerCampBooking from "./emails/CampRSVP"
-
-import artcampp1 from "./img/artCampPicture1.jpg";
-import artcampp2 from "./img/artCampPicture2.JPG";
+import SummerCampBooking from "./emails/CampRSVP";
+import Camp1 from "./img/artcamp1.jpg";
+import Camp2 from "./img/artcamp2.jpg";
+import Camp3 from "./img/artcamp3.JPG";
+import Camp4 from "./img/artcamp4.jpg";
+import Camp5 from "./img/artcamp5.jpg";
 
 const SummerCamp = () => {
   return (
     <div>
       <div className="summer-header">
-         <div className="studio-photo">
-            <img src={artcampp1} className="studio-pic"></img>
+        <div className="summer-images">
+          <img src={Camp1} className="summer-img" />
         </div>
-        <div className="header-title-text">
-            <p className="summer-title">Summer Camp 2025</p>
-            <p className="summer-intro">Fine Art | Crafts</p>
-            <p className="summer-intro">4 days | 10 AM - 1 PM | $220</p>
+        <div className="summer-intro">
+          <p className="summer-title">Summer Camp 2025</p>
+          <p className="summer-intro">Fine Art | Crafts</p>
+          <p className="summer-intro">4 days | 10 AM - 1 PM | $220</p>
         </div>
-         <div className="studio-photo">
-            <img src={artcampp2} className="studio-pic"></img>
+        <div className="summer-images">
+          <img src={Camp2} className="summer-img" />
         </div>
       </div>
 
@@ -180,18 +182,23 @@ const SummerCamp = () => {
         </div>
       </div>
 
-      <div className='line-container'>
-        <div className='line'></div>
+      <div className="line-container">
+        <div className="line"></div>
+      </div>
+
+      <div className="summer-body-intro">
+        <p>
+          Come join our 4 day summer camps to build upon your creativity,
+          explore new techniques, and most of all, have fun!
+        </p>
+        <div className="summer-body-images">
+          <img src={Camp3} className="summer-body-img" />
+          <img src={Camp4} className="summer-body-img" />
+          <img src={Camp5} className="summer-body-img" />
+        </div>
       </div>
 
       <div className="summer-body">
-        <div className="summer-body-intro">
-          <p>
-            Come join our 4 day summer camps to build upon your creativity,
-            explore new techniques, and most of all, have fun!
-          </p>
-          <img src="https://picsum.photos/300/300" alt="Summer Camp Image" />
-        </div>
         <div className="summer-body-text">
           <p>
             Last year, our summer camp spots filled up fast, so don’t wait to
@@ -215,7 +222,6 @@ const SummerCamp = () => {
               for $220 per session.
             </p>
           </div>
-          
         </div>
       </div>
     </div>

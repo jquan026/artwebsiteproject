@@ -1,10 +1,29 @@
 .summer-header {
-  text-align: center;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: center;  
+  justify-content: center; 
+  text-align: center;
+  gap: 20px;
 }
+
+.summer-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.summer-title {
+  font-size: 35px;
+  padding: 20px 0px;
+  white-space: nowrap;
+}
+
+.summer-intro {
+  font-size: 20px;
+}
+
 
 .studio-photo{
   text-align: center;
@@ -14,6 +33,34 @@
 .studio-pic{
   height: 200px;
   width: auto;
+}
+
+.summer-images {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.summer-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.summer-images {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.summer-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .summer-title {
@@ -51,15 +98,6 @@
   font-weight: 550;
 }
 
-.summer-body-intro {
-  display: flex;
-  margin-bottom: 20px;
-  align-items: center; 
-  justify-content: center;
-  gap: 30%;
-  padding: 50px;
-}
-
 .summer-body-intro p {
   text-align: left;
   width: 40%
@@ -91,6 +129,52 @@
   background-color: transparent;
 }
 
+.summer-body-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.summer-body-intro p {
+  font-size: 20px;
+}
+
+.summer-body-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 80%;
+  margin: 20px auto 0;
+  flex-wrap: wrap;
+}
+
+.summer-body-img {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+@media (max-width: 950px) {
+  .summer-header {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .summer-images {
+    max-width: 70%; 
+    height: auto;
+  }
+  
+  .summer-img {
+    max-width: 250px; 
+    height: auto;
+  }
+}
+
 .bigger-fontsize{
   font-size: 25px;
   font-weight: bold;
@@ -112,9 +196,9 @@
     padding: 10px;
   }
 
-  .summer-body-intro {
+  /* .summer-body-intro {
     flex-direction: column;
-  }
+  } */
 
   .summer-body-intro p {
     width:100%;
