@@ -2,6 +2,7 @@
   font-size: 35px;
   text-align: center;
   padding: 30px;
+  font-weight: bold;
 }
 
 .tuition-subtitle {
@@ -15,6 +16,7 @@
   gap: 25px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .tuition-card {
@@ -22,14 +24,16 @@
   height: 250px;
   border: solid 2px black;
   border-radius: 10px;
-  padding: 10px 10px;
-  text-align: center; 
+  padding: 30px 30px;
+  text-align: center;
   display: flex; 
   flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(rgba(253, 253, 253, 0.6), rgba(253, 253, 253, 0.6)), url('./img/card-front-texture.jpg');
   background-size: cover;
+
+
 }
 
 .tuition-card p {
@@ -41,6 +45,9 @@
   font-size: 35px;
 }
 
+.tuition-subtitle{
+  font-weight: bold;
+}
 
 .tuition-rates, .tuition-info, .tuition-sibling-chart {
   width: 70%;
@@ -52,6 +59,10 @@
 .tuition-info ul, .tuition-rates ul{
   margin-left: 25px;
   font-size: 20px;
+}
+
+.tuition-info li {
+  margin-bottom: 5px;
 }
 
 .tuition-sibling-chart {
@@ -72,4 +83,44 @@
 
 .tuition-info {
   margin-bottom: 20px;
+}
+
+.reg-font-size {
+  font-size: 20px;
+}
+
+.bottom-spacing {
+  margin-bottom: 20px;
+}
+
+.bolded{
+  font-weight: bolded;
+}
+
+@media (max-width: 800px) {
+  .tuition-cards {
+    flex-direction: column;
+  }
+
+  .tuition-card {
+    padding: 45px 45px;
+  }
+
+  .tuition-sibling-chart {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .tuition-sibling-box {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .tuition-sibling-box {
+    font-size: 10px;
+  }
+
 }

@@ -14,20 +14,20 @@ const TuitionRates = () => {
             <p>Once a week for the whole month</p>
           </div>
           <div className="tuition-card">
-            <p>12 Week Discounted Tuition</p>
+            <p>Discounted Tuition (12 Weeks)</p>
             <span className="tuition-price">$23/class</span>
             <p>Reserve a class for 12 counsecutive weeks</p>
           </div>
           <div className="tuition-card">
             <p>Adult students</p>
             <span className="tuition-price">$50/Class</span>
-            <p>Meets twice a month on Tuesdays from 6:00-8:30 PM</p>
+            <p>2x/month on Tuesdays from 6:00-8:30PM</p>
           </div>
         </div>
         <ul>
-          <li>Regular monthly tuition:</li>
+          <li className="bolded">Regular monthly tuition:</li>
           <ul>
-            <li>
+            <li className="bottom-spacing">
               Is $25 per class. To reserve a spot in class, students must pay
               for atleast one class per week for a full month.
             </li>
@@ -43,9 +43,9 @@ const TuitionRates = () => {
         <p className="tuition-subtitle">
           Charter school students billing information:
         </p>
-        <p>Please follow this <Link to="/charter-schools">link</Link> to learn more.</p>
+        <p className="reg-font-size">Please follow this <Link to="/charter-schools">link</Link> to learn more.</p>
         <p className="tuition-subtitle">
-          Discounted 3 month (12 weeks) tuition
+          Discounted 3 month (12 weeks) tuition:
         </p>
         <ul>
           <li>Rate of $23 per class</li>
