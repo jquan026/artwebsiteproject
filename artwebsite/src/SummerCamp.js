@@ -2,13 +2,24 @@ import React from "react";
 import "./SummerCamp.css";
 import SummerCampBooking from "./emails/CampRSVP"
 
+import artcampp1 from "./img/artCampPicture1.jpg";
+import artcampp2 from "./img/artCampPicture2.JPG";
+
 const SummerCamp = () => {
   return (
     <div>
       <div className="summer-header">
-        <p className="summer-title">Summer Camp 2025</p>
-        <p className="summer-intro">Fine Art | Crafts</p>
-        <p className="summer-intro">4 days | 10 AM - 1 PM | $220</p>
+         <div className="studio-photo">
+            <img src={artcampp1} className="studio-pic"></img>
+        </div>
+        <div className="header-title-text">
+            <p className="summer-title">Summer Camp 2025</p>
+            <p className="summer-intro">Fine Art | Crafts</p>
+            <p className="summer-intro">4 days | 10 AM - 1 PM | $220</p>
+        </div>
+         <div className="studio-photo">
+            <img src={artcampp2} className="studio-pic"></img>
+        </div>
       </div>
 
       <div className="summer-schedule-container">
@@ -197,7 +208,7 @@ const SummerCamp = () => {
             day!
           </p>
           <div className="summer-body-subtext">
-            <p className="summer-subtitle">Art Camp Schedule:</p>
+            <p className="summer-subtitle bigger-fontsize">Art Camp Schedule:</p>
             <p>
               Camps run for 4 days from 10 AM to 1 PM, with afternoon classes
               continuing during camp weeks. All supplies and snacks are included
