@@ -3,7 +3,8 @@
   flex-direction: row;
   align-items: center;  
   justify-content: center; 
-  gap: 30px;
+  text-align: center;
+  gap: 20px;
 }
 
 .summer-intro {
@@ -11,6 +12,41 @@
   flex-direction: column;
   align-items: center; 
   text-align: center;
+}
+
+.summer-title {
+  font-size: 35px;
+  padding: 20px 0px;
+  white-space: nowrap;
+}
+
+.summer-intro {
+  font-size: 20px;
+}
+
+
+.studio-photo{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.studio-pic{
+  height: 200px;
+  width: auto;
+}
+
+.summer-images {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.summer-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .summer-images {
@@ -29,7 +65,8 @@
 
 .summer-title {
   font-size: 35px;
-  padding: 50px 0px;
+  padding: 40px 0px;
+  font-weight: bold;
 }
 
 .summer-intro {
@@ -136,5 +173,43 @@
     max-width: 250px; 
     height: auto;
   }
+}
+
+.bigger-fontsize{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .studio-photo{
+    visibility: hidden;
+    display: none;
+  }
+
+  .summer-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .summer-schedule-box {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* .summer-body-intro {
+    flex-direction: column;
+  } */
+
+  .summer-body-intro p {
+    width:100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .bigger-fontsize{
+    font-size: 25px;
+  }
+
+
 }
 

@@ -215,7 +215,7 @@ const SummerCamp = () => {
             day!
           </p>
           <div className="summer-body-subtext">
-            <p className="summer-subtitle">Art Camp Schedule:</p>
+            <p className="summer-subtitle bigger-fontsize">Art Camp Schedule:</p>
             <p>
               Camps run for 4 days from 10 AM to 1 PM, with afternoon classes
               continuing during camp weeks. All supplies and snacks are included
