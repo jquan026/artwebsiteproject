@@ -51,7 +51,15 @@
   width: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .pic-image{
+      height: 200px;
+      width: auto;
+  }
+
+}
+
+@media (max-width: 700px) {
     .picture-collage {
       flex-direction: column;
     }
