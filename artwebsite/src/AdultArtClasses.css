@@ -47,6 +47,7 @@
 .class-options-content {
   padding-top:30px;
   padding-bottom:30px;
+  margin-right: 20px;
 }
 
 .class-options-texts {
@@ -93,9 +94,10 @@
   margin-top: 50px;
   margin-bottom: 50px;
   justify-content: space-around;
+  margin-right: 20px;
 }
 
-.about-trials-pic {
+.trials-pic {
   height: 200px;
   width: auto;
   margin-bottom: 60px;
@@ -110,7 +112,7 @@
 
 @media (max-width: 800px) {
 
-  .adult-classes-top-pic, .adult-class-painting-pic, .about-trials-pic {
+  .adult-classes-top-pic, .adult-class-painting-pic {
       height: 200px;
       width: auto;
   }
@@ -140,8 +142,8 @@
     flex-direction: column;
   }
 
-  .about-trials-pic {
-    height: 170px;
+  .trials-pic {
+    height: 200px;
     width: auto;
     margin-bottom: 30px;
     margin-left: 0px;
@@ -154,4 +156,5 @@
     margin-bottom: 30px;
     text-align: center;
   }
+
 }

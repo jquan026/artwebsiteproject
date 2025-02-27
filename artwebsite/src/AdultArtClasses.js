@@ -2,8 +2,8 @@ import React from "react";
 import './AdultArtClasses.css';
 import Footer from './Footer';
 
-import paintingPicture from "./img/referafriendpicture.jpg";
-import aboutTrialsPicture from "./img/abouttrialspicture.JPG";
+import paintingPicture from "./img/adultPortrait.jpg";
+import aboutTrialsPicture from "./img/lizardDrawing.jpg";
 import adultClassPaintingPicture from "./img/adultclasspaintingpicture.JPG";
 
 const AdultArtClasses = () => {
@@ -27,7 +27,8 @@ const AdultArtClasses = () => {
                     <div className="class-options-texts">
                         <h4>We offer two choices when it comes to adult participation:</h4>
                         <p>1. We welcome adults to attend our all-ages classes at any of our studios. We have mostly children attending, but there are adults sprinkled within those classes. You can simple call the studios directly to establish a trial class and give it a try.</p>
-                        <p>2. We also have an adult only class option. Currently we only have one of these classes in La Mesa on Tuesday evening from 6:00 to 8:30PM. This is considered a double class and only is attendance twice a month. Spaces are limited. Please email to check availability for this adult only class. artwithlarisse@gmail.com</p>
+                        <p>2. We also have an adult only class option. Currently we only have one of these classes in La Mesa on Tuesday evening from 6:00 to 8:30PM. This is considered a double class and only is attendance twice a month. Spaces are limited. Please email to check availability for this adult only class.</p>
+                        <p>artwithlarisse@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +55,7 @@ const AdultArtClasses = () => {
             <div className="bg-rect">
                 <div className="about-trials-content">
                     <div className="img-photo">
-                        <img src={aboutTrialsPicture} className="about-trials-pic"></img>
+                        <img src={aboutTrialsPicture} className="trials-pic"></img>
                     </div>
                     <div className="about-trials-texts">
                         <h4>About our Trials:</h4>
