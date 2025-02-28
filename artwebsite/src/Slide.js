@@ -21,6 +21,7 @@ const Slide = () => {
               <div className="embla__slide" key={index}>
                 <div>
                   <img
+                    rel="preload"
                     src={image} 
                     alt={`Image ${index + 1}`}
                     className='slide'
