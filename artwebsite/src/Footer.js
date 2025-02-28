@@ -15,6 +15,7 @@ const Footer = () => {
         <div className="socials-icons">
           <p className="gallery-text">SOCIAL MEDIA GALLERY: </p>
           <a
+            aria-label="Go to our Instagram"
             href="https://www.instagram.com/artwithlarisse/"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,6 +24,7 @@ const Footer = () => {
             <BsInstagram />
           </a>
           <a
+            aria-label="Go to our Facebook"
             href="https://www.facebook.com/artwithlarisse/"
             target="_blank"
             rel="noopener noreferrer"

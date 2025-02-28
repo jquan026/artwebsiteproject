@@ -130,14 +130,15 @@
   padding: 10px 70px;
   border-width: 0px;
   background-color: rgb(138, 116, 107, 0.7);
-  font-size: medium;
+  font-size: 24px;
   border-radius: 10px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .studio-page-link a {
   color: white;
   text-decoration: none;
+  font-size: 24px;
 }
 
 .studio-page-link:hover a {

@@ -6,7 +6,7 @@ const Mission = () => {
   return (
     <div className="mission">
       <div className="photo">
-        <img src={missionimg} className="mission-img"></img>
+        <img src={missionimg} alt="Flower vase piece" className="mission-img"></img>
       </div>
       <div className="statement">
         <p className="mission-title">Our Mission Statement:</p>

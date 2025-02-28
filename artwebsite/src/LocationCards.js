@@ -18,7 +18,11 @@ const LocationCards = () => {
             <div className="card-front">
               <p>La Mesa</p>
               <p className="studio">Studio</p>
-              <img src={lamesafront} className="studioimg"></img>
+              <img
+                src={lamesafront}
+                alt="La Mesa location"
+                className="studioimg"
+              ></img>
             </div>
             <div className="card-back">
               <h3>Address</h3>
@@ -30,7 +34,7 @@ const LocationCards = () => {
                 artwithlarisse@gmail.com
               </a>
               <button className="studio-page-link">
-                <Link to="/locations/la-mesa">Learn More</Link>
+                <Link to="/locations/la-mesa">View Studio</Link>
               </button>
             </div>
           </div>
@@ -40,7 +44,11 @@ const LocationCards = () => {
             <div className="card-front">
               <p>Bonita</p>
               <p className="studio">Studio</p>
-              <img src={bonitafront} className="studioimg"></img>
+              <img
+                src={bonitafront}
+                alt="Bonita location"
+                className="studioimg"
+              ></img>
             </div>
             <div className="card-back">
               <h3>Address</h3>
@@ -52,7 +60,7 @@ const LocationCards = () => {
                 artwithlarisse@gmail.com
               </a>
               <button className="studio-page-link">
-                <Link to="/locations/santee">Learn More</Link>
+                <Link to="/locations/santee">View Studio</Link>
               </button>
             </div>
           </div>
@@ -62,7 +70,11 @@ const LocationCards = () => {
             <div className="card-front">
               <p>Santee</p>
               <p className="studio">Studio</p>
-              <img src={santeefront} className="studioimg"></img>
+              <img
+                src={santeefront}
+                alt="Santee location"
+                className="studioimg"
+              ></img>
             </div>
             <div className="card-back">
               <h3>Address</h3>
@@ -74,7 +86,7 @@ const LocationCards = () => {
                 artwithlarisse@gmail.com
               </a>
               <button className="studio-page-link">
-                <Link to="/locations/bonita">Learn More</Link>
+                <Link to="/locations/bonita">View Studio</Link>
               </button>
             </div>
           </div>

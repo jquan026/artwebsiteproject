@@ -258,6 +258,8 @@ export default function TemporaryDrawer() {
     <div>
       {isMobileOrTablet && isButtonVisible && (
         <Button
+          id="learnMorebtn"
+          title="Learn More Button"
           onClick={toggleDrawer(true)}
           style={{ position: "absolute", top: 25, right: 16, color: "black" }}
         >
