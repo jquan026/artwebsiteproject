@@ -22,7 +22,7 @@
 }
 
 .slide {
-  height: 575px;
+  height: 500px;
   width: 100%;
   object-fit: cover;
   display: flex;

@@ -9,6 +9,14 @@ import slide3 from './slideshow/slide3.png'
 const Slide = () => {
   const images = [slide1, slide2, slide3]
 
+  React.useEffect(() => {
+    const preloadImages = images.map((image) => {
+      const img = new Image();
+      img.src = image;
+      return img;
+    });
+  }, [images]);
+
   const autoplay = Autoplay({ delay: 4000, stopOnInteraction: false })
   const [emblaRef, emblaApi] = useEmblaCarousel({}, [autoplay])
 
@@ -21,7 +29,6 @@ const Slide = () => {
               <div className="embla__slide" key={index}>
                 <div>
                   <img
-                    rel="preload"
                     src={image} 
                     alt={`Image ${index + 1}`}
                     className='slide'
