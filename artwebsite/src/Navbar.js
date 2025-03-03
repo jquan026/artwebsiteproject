@@ -12,7 +12,15 @@ import {
 import "./Navbar2.css"; 
 
 const Navbar = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState({});
+  // const [isDropdownOpen, setIsDropdownOpen] = useState({});
+  const [isDropdownOpen, setIsDropdownOpen] = useState({
+    classes: true,
+    locations: true,
+    camps: true,
+    parties: true,
+    tuition: true, 
+    about: true,
+  });
   const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
   const toggleDropdown = (tab) => {
