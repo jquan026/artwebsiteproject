@@ -2,9 +2,9 @@ import React from 'react'
 import Autoplay from 'embla-carousel-autoplay'
 import useEmblaCarousel from 'embla-carousel-react'
 import './Slides.css'
-import slide1 from './slideshow/slide1.jpg'
-import slide2 from './slideshow/slide2.png'
-import slide3 from './slideshow/slide3.png'
+import slide1 from './slideshow/slide1.webp'
+import slide2 from './slideshow/slide2.webp'
+import slide3 from './slideshow/slide3.webp'
 
 const Slide = () => {
   const images = [slide1, slide2, slide3]
@@ -29,15 +29,32 @@ const Slide = () => {
               <div className="embla__slide" key={index}>
                 <div>
                   <img
-                    src={image} 
-                    alt={`Image ${index + 1}`}
-                    className='slide'
+                    src={image}
+                    alt={`Slide ${index + 1}`}
+                    className="slide"
                   />
-                  {index === 0 && <div className="slide-text">
-                    Try Your First Class Free!
-                    <br />
-                    <button className='free-class-button'>Learn More</button>
-                    </div>}
+                  {index === 0 && (
+                    <div className="slide-text">
+                      Try Your First Class Free!
+                      <br />
+                      <button className="free-class-button">Learn More</button>
+                    </div>
+                  )}
+                  {index === 1 && (
+                    <div className="slide-text">
+                      Check out our Summer Camp!
+                      <br />
+                      <button className="free-class-button">Learn More</button>
+                    </div>
+                  )}
+                  {index === 2 && (
+                    <div className="slide-text">
+                      Tap Into Your Creativity – Enroll or Renew Your Art
+                      Classes Today!
+                      <br />
+                      <button className="free-class-button">Pay here!</button>
+                    </div>
+                  )}
                 </div>
               </div>
             );
