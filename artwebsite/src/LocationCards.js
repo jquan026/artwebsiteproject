@@ -1,9 +1,9 @@
 import React from "react";
 import './LocationCards.css';
 import { Link } from "react-router-dom";
-import lamesafront from "./img/lamesafront.jpg"
-import santeefront from "./img/santeeimg.jpg"
-import bonitafront from "./img/bonitaimg.jpeg"
+import lamesafront from "./img/lamesafront.avif"
+import santeefront from "./img/santeeimg.avif"
+import bonitafront from "./img/bonitaimg.avif"
 
 const LocationCards = () => {
   return (
