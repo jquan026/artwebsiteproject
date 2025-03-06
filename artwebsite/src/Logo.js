@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "./img/awlHeaderLogo.png";
+import logo from "./img/awlHeaderLogo.avif";
 import "./Logo.css"
 import TemporaryDrawer from "./Menu"
 

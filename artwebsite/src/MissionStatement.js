@@ -1,11 +1,11 @@
 import React from "react";
 import "./MissionStatement.css"
 
-import msp1 from "./img/MissionStatementPic1.jpg";
-import msp2 from "./img/MissionStatementPic2.jpg";
-import msp3 from "./img/MissionStatementPic3.jpg";
-import msp4 from "./img/MissionStatementPic4.JPEG";
-import msp5 from "./img/MissionStatementPic5.jpg";
+import msp1 from "./img/MissionStatementPic1.avif";
+import msp2 from "./img/MissionStatementPic2.avif";
+import msp3 from "./img/MissionStatementPic3.avif";
+import msp4 from "./img/MissionStatementPic4.avif";
+import msp5 from "./img/MissionStatementPic5.avif";
 
 const MissionStatement = () => {
   return (

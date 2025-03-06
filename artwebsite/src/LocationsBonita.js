@@ -2,8 +2,8 @@ import React from "react";
 import './LocationsStudio.css';
 import { Link } from "react-router-dom";
 
-import bonitaLocationInside from "./img/bonitalocationinside.jpg";
-import referAFriendPicture from "./img/bonitaArt1.jpg";
+import bonitaLocationInside from "./img/bonitalocationinside.avif";
+import referAFriendPicture from "./img/bonitaArt1.avif";
 
 const LocationsBonita = () => {
   return (

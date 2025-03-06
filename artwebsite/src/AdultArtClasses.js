@@ -2,9 +2,9 @@ import React from "react";
 import './AdultArtClasses.css';
 import Footer from './Footer';
 
-import paintingPicture from "./img/adultPortrait.jpg";
-import aboutTrialsPicture from "./img/lizardDrawing.jpg";
-import adultClassPaintingPicture from "./img/adultclasspaintingpicture.JPG";
+import paintingPicture from "./img/adultPortrait.avif";
+import aboutTrialsPicture from "./img/lizardDrawing.avif";
+import adultClassPaintingPicture from "./img/adultclasspaintingpicture.avif";
 
 const AdultArtClasses = () => {
   return (

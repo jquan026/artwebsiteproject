@@ -2,8 +2,8 @@ import React from "react";
 import './LocationsStudio.css';
 import { Link } from "react-router-dom";
 
-import laMesaLocationInside from "./img/lamesalocationinside.jpg";
-import referAFriendPicture from "./img/laMesaArt1.jpg";
+import laMesaLocationInside from "./img/lamesalocationinside.avif";
+import referAFriendPicture from "./img/laMesaArt1.avif";
 
 const LocationsLaMesa = () => {
   return (

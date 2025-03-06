@@ -1,8 +1,8 @@
 import React from "react";
 import "./CharterSchool.css"
 
-import corgyPicture from "./img/corgyPicture.JPEG";
-import vanGoghPicture from "./img/vanGoghPicture.jpg";
+import corgyPicture from "./img/corgyPicture.avif";
+import vanGoghPicture from "./img/vanGoghPicture.avif";
 
 const CharterSchool = () => {
   return (

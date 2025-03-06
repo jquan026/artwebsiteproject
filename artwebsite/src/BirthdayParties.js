@@ -2,9 +2,9 @@ import React from 'react'
 import './BirthdayParties.css'
 import BirthdayBooking from './emails/BirthdayBooking'
 
-import bdayArtPartyPic from "./img/bdayArtPartyPicture.jpg";
-import bdayArtPartyGamePic from "./img/birthdayArtPartyGamePicture.jpg";
-import bdayArtParty1 from "./img/birthdayParty1.jpg";
+import bdayArtPartyPic from "./img/bdayArtPartyPicture.avif";
+import bdayArtPartyGamePic from "./img/birthdayArtPartyGamePicture.avif";
+import bdayArtParty1 from "./img/birthdayParty1.avif";
 
 const BirthdayParties = () => {
   return (

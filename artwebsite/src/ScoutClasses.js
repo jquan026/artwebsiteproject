@@ -4,8 +4,8 @@ import './ScoutClasses.css';
 import Footer from './Footer';
 import ScoutEmail from './emails/ScoutBooking'
 
-import aboutTrialsPicture from "./img/girlScoutGroupPicture.jpg";
-import gsdrawingpic from "./img/girlScoutDrawingPicture.jpg";
+import aboutTrialsPicture from "./img/girlScoutGroupPicture.avif";
+import gsdrawingpic from "./img/girlScoutDrawingPicture.avif";
 
 const ScoutClasses = () => {
   return (
