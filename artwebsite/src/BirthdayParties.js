@@ -3,6 +3,8 @@ import './BirthdayParties.css'
 import BirthdayBooking from './emails/BirthdayBooking'
 
 import bdayArtPartyPic from "./img/bdayArtPartyPicture.jpg";
+import bdayArtPartyGamePic from "./img/birthdayArtPartyGamePicture.jpg";
+import bdayArtParty1 from "./img/birthdayParty1.jpg";
 
 const BirthdayParties = () => {
   return (
@@ -44,6 +46,20 @@ const BirthdayParties = () => {
               <li>Create a personalized pastel art piece.</li>
             </ul>
           </p>
+          <div className="birthday-section-pictures">
+            <div className="birthday-section-picture-block">
+                <div className="birthday-image">
+                    <img src={bdayArtPartyGamePic} className="pict-image"></img>
+                    <p>Game in progress!</p>
+                </div>
+            </div>
+            <div className="birthday-section-picture-block">
+                <div className="birthday-image">
+                    <img src={bdayArtParty1} className="pict-image"></img>
+                    <p>End results!</p>
+                </div>
+            </div>
+          </div>
         </div>
         <div className="birthday-section-block">
           <p className="birthday-subtite bolded">Pricing</p>

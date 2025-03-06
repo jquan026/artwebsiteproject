@@ -152,6 +152,23 @@
   font-size: 20px;
 }
 
+.birthday-section-pictures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.pict-image {
+  height: 300px;
+  width: auto;
+}
+
+.birthday-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .birthday-header {
     flex-direction: column; 
@@ -164,5 +181,11 @@
 
   .birthday-pricing {
   gap: 50px;
+  }
+
+  .birthday-section-pictures{
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
   }
 }
