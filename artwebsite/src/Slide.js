@@ -6,6 +6,8 @@ import slide1 from './slideshow/slide1.webp'
 import slide2 from './slideshow/slide2.webp'
 import slide3 from './slideshow/slide3.webp'
 
+import { Link } from "react-router-dom";
+
 const Slide = () => {
   const images = [slide1, slide2, slide3]
 
@@ -37,14 +39,18 @@ const Slide = () => {
                     <div className="slide-text">
                       Try Your First Class Free!
                       <br />
-                      <button className="free-class-button">Learn More</button>
+                      <button className="free-class-button">
+                        <Link to="/regular-classes">Learn More</Link>
+                      </button>
                     </div>
                   )}
                   {index === 1 && (
                     <div className="slide-text">
                       Check out our Summer Camp!
                       <br />
-                      <button className="free-class-button">Learn More</button>
+                      <button className="free-class-button">
+                        <Link to="/summercamp">Learn More</Link>
+                      </button>
                     </div>
                   )}
                   {index === 2 && (
@@ -52,7 +58,13 @@ const Slide = () => {
                       Tap Into Your Creativity – Enroll or Renew Your Art
                       Classes Today!
                       <br />
-                      <button className="free-class-button">Pay here!</button>
+                      <button className="free-class-button">
+                        <a
+                          href="https://artwithlarisse.square.site/shop/pay-tuition/2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        > Pay Here! </a>
+                      </button>
                     </div>
                   )}
                 </div>
