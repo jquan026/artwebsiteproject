@@ -6,6 +6,13 @@
   font-weight: bold;
 }
 
+.title-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .charter-subtitle{
   font-size: 30px;
   font-weight: bold;
@@ -142,4 +149,9 @@
 
 .charter-policies li{
   margin-bottom:10px;
+}
+
+.pict-image {
+  height: 200px;
+  width: auto;
 }

@@ -1,11 +1,22 @@
 import React from "react";
 import "./CharterSchool.css"
 
+import corgyPicture from "./img/corgyPicture.JPEG";
+import vanGoghPicture from "./img/vanGoghPicture.jpg";
+
 const CharterSchool = () => {
   return (
     <div>
       <div className="charter-header">
-        <p className="charter-title">Charter School Art Program</p>
+        <div className="title-section">
+            <div className="img-photo">
+                <img src={corgyPicture} className="pict-image"></img>
+            </div>
+            <p className="charter-title">Charter School Art Program</p>
+            <div className="img-photo">
+                <img src={vanGoghPicture} className="pict-image"></img>
+            </div>
+        </div>
         <p className="charter-intro-subtitle">Welcome to Our Art Program!</p>
         <div className="charter-desc">
           <p>
@@ -78,7 +89,7 @@ const CharterSchool = () => {
         <p className="charter-subtitle">Requesting Funds</p>
         <div className="fund-steps">
           <p className="fund-subtitle">Step 1</p>
-          <p>Schedule Trial Class</p>
+          <p>Schedule Trial Class.</p>
         </div>
         <div className="fund-steps">
           <p className="fund-subtitle">Step 2</p>
@@ -96,7 +107,7 @@ const CharterSchool = () => {
           <p>
             To hold your spot in class for the following month, just put in a
             request 30 days before the next month. Please do this early to avoid
-            delays in processing
+            delays in processing.
           </p>
         </div>
       </div>
@@ -106,16 +117,16 @@ const CharterSchool = () => {
         <ul>
           <li>
             Studio discounts for 12 weeks or siblings do not apply to charter
-            school payments
+            school payments.
           </li>
-          <li>Parents are responsible for any unpaid classes</li>
+          <li>Parents are responsible for any unpaid classes.</li>
           <li>
             Avoid putting in individual class requests. If you are attending for
-            the month, put in a request for the full month in one certificate
+            the month, put in a request for the full month in one certificate.
           </li>
           <li>
             Notice how many weekdays there are in the month before putting in a
-            request
+            request.
           </li>
           <li>
             All classes paid for by a charter, including make-up classes, will
