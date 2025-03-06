@@ -3,7 +3,7 @@ import './LocationsStudio.css';
 import { Link } from "react-router-dom";
 
 import laMesaLocationInside from "./img/lamesalocationinside.jpg";
-import referAFriendPicture from "./img/referafriendpicture.jpg";
+import referAFriendPicture from "./img/laMesaArt1.jpg";
 
 const LocationsLaMesa = () => {
   return (

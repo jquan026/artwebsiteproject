@@ -3,7 +3,7 @@ import './LocationsStudio.css';
 import { Link } from "react-router-dom";
 
 import santeeLocationInside from "./img/santeelocationinside.jpg";
-import referAFriendPicture from "./img/referafriendpicture.jpg";
+import referAFriendPicture from "./img/santeeArt1.jpg";
 
 const LocationsSantee = () => {
   return (
