@@ -1,23 +1,37 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { BrowserRouter as Router } from 'react-router-dom';
-// import App from './App';
+// import React from "react";
+// import ReactDOM from "react-dom/client"; 
+// import { BrowserRouter as Router } from "react-router-dom";
+// import App from "./App";
 
-// ReactDOM.render(
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
 //   <Router>
 //     <App />
-//   </Router>,
-//   document.getElementById('root')
+//   </Router>
 // );
-
 import React from "react";
-import ReactDOM from "react-dom/client"; 
-import { BrowserRouter as Router } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import App from "./App";
 
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, [pathname]);
+
+  return null;
+};
+
+const RootComponent = () => {
+  return (
+    <Router>
+      <ScrollToTop /> 
+      <App />
+    </Router>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <Router>
-    <App />
-  </Router>
-);
+root.render(<RootComponent />);
