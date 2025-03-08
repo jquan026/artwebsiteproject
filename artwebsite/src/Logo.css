@@ -1,18 +1,16 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DEE3D2;
+  padding: 10px;
+}
+
 .logo {
   width: 40%;
   height: auto;
   margin-bottom: 20px;
   margin-top: 20px;
+  display: block;
+  cursor: pointer; 
 }
-
-.logo-container a {
-  background-color: #DEE3D2;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  text-decoration: none; 
-}
-
-
-
-

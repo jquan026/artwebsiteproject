@@ -1,24 +1,29 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; 
 import logo from "./img/awlHeaderLogo.avif";
-import "./Logo.css"
-import TemporaryDrawer from "./Menu"
+import "./Logo.css";
+import TemporaryDrawer from "./Menu";
 
 function Logo() {
-    const [drawerOpen, setDrawerOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const navigate = useNavigate(); 
 
-    const toggleDrawer = (open) => () => {
-        setDrawerOpen(open);
-    };
+  const toggleDrawer = (open) => () => {
+    setDrawerOpen(open);
+  };
 
-    return (
-      <div className="logo-container">
-        <Link to="/" className="logo-link">
-          <img src={logo} alt="Logo" className="logo" />
-        </Link>
-        <TemporaryDrawer open={drawerOpen} onClose={toggleDrawer(false)} />
-      </div>
-    );
+  return (
+    <div className="logo-container">
+      <img
+        src={logo}
+        alt="Logo"
+        className="logo"
+        onClick={() => navigate("/")} 
+        style={{ cursor: "pointer" }} 
+      />
+      <TemporaryDrawer open={drawerOpen} onClose={toggleDrawer(false)} />
+    </div>
+  );
 }
 
 export default Logo;
