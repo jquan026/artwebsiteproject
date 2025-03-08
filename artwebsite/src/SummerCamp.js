@@ -200,6 +200,7 @@ const SummerCamp = () => {
 
       <div className="summer-body">
         <div className="summer-body-text">
+          <p>Learn to draw fine art and create new crafts every day!</p>
           <p>
             Last year, our summer camp spots filled up fast, so don’t wait to
             reserve your spot!
@@ -211,11 +212,12 @@ const SummerCamp = () => {
           </p>
           <p>
             Our regular art classes run year-round—check the studio links above
-            for schedules. Learn to draw fine art and create new crafts every
-            day!
+            for schedules.
           </p>
           <div className="summer-body-subtext">
-            <p className="summer-subtitle bigger-fontsize">Art Camp Schedule:</p>
+            <p className="summer-subtitle bigger-fontsize">
+              Art Camp Schedule:
+            </p>
             <p>
               Camps run for 4 days from 10 AM to 1 PM, with afternoon classes
               continuing during camp weeks. All supplies and snacks are included
