@@ -88,6 +88,9 @@
 }
 
 .charter-costs-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #ccc;
   padding: 10px; 
   text-align: center; 
@@ -96,6 +99,17 @@
   font-size: 20px;
 }
 
+.charter-costs-box-price {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px; 
+  text-align: center; 
+  background: linear-gradient(rgba(253, 253, 253, 0.4), rgba(253, 253, 253, 0.4)), url('./img/card-front-texture.jpg');
+  background-size: cover;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
 
 .charter-sub-title {
   font-size: 25px;

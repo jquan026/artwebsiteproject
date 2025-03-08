@@ -9,13 +9,13 @@ const CharterSchool = () => {
     <div>
       <div className="charter-header">
         <div className="title-section">
-            <div className="img-photo">
-                <img src={corgyPicture} className="pict-image"></img>
-            </div>
-            <p className="charter-title">Charter School Art Program</p>
-            <div className="img-photo">
-                <img src={vanGoghPicture} className="pict-image"></img>
-            </div>
+          <div className="img-photo">
+            <img src={corgyPicture} className="pict-image"></img>
+          </div>
+          <p className="charter-title">Charter School Art Program</p>
+          <div className="img-photo">
+            <img src={vanGoghPicture} className="pict-image"></img>
+          </div>
         </div>
         <p className="charter-intro-subtitle">Welcome to Our Art Program!</p>
         <div className="charter-desc">
@@ -66,7 +66,7 @@ const CharterSchool = () => {
           <div className="charter-costs-box">
             <p className="charter-sub-title">1-hour lesson</p>
           </div>
-          <div className="charter-costs-box">$26.00</div>
+          <div className="charter-costs-box-price">$26.00</div>
           <div className="charter-costs-box">
             Charter Prices are different than regular because of the
             administrative work to process the paperwork each month
@@ -74,7 +74,7 @@ const CharterSchool = () => {
           <div className="charter-costs-box">
             <p className="charter-sub-title">1 box of pastels</p>
           </div>
-          <div className="charter-costs-box">$55.00</div>
+          <div className="charter-costs-box-price">$55.00</div>
           <div className="charter-costs-box">
             Can be shared between 2 students
           </div>
@@ -89,7 +89,7 @@ const CharterSchool = () => {
         <p className="charter-subtitle">Requesting Funds</p>
         <div className="fund-steps">
           <p className="fund-subtitle">Step 1</p>
-          <p>Schedule Trial Class.</p>
+          <p>Schedule a trial class by giving us a call.</p>
         </div>
         <div className="fund-steps">
           <p className="fund-subtitle">Step 2</p>
@@ -130,7 +130,7 @@ const CharterSchool = () => {
           </li>
           <li>
             All classes paid for by a charter, including make-up classes, will
-            need to be schedules and used during the academic year. Credits are
+            need to be scheduled and used during the academic year. Credits are
             not to be rolled over into summer or the following school year.
           </li>
         </ul>
