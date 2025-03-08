@@ -3,7 +3,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import useEmblaCarousel from 'embla-carousel-react'
 import './Slides.css'
 import slide1 from './slideshow/slide1.webp'
-import slide2 from './slideshow/slide2.webp'
+import slide2 from './slideshow/slide2.avif'
 import slide3 from './slideshow/slide3.webp'
 
 import { Link } from "react-router-dom";
