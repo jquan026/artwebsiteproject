@@ -52,7 +52,8 @@ const LocationCards = () => {
             </div>
             <div className="card-back">
               <h3>Address</h3>
-              <p>9225 Carlton Hills Blvd, Ste. 5</p>
+              <p>9225 Carlton Hills Blvd,</p>
+              <p>Ste. 5</p>
               <p>Santee, CA 92071</p>
               <h3 className="contact-info">Contact Information</h3>
               <p>(619) 855 - 2787 </p>

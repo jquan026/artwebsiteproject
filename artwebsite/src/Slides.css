@@ -46,7 +46,7 @@
 .slide-text {
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 51%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 50px;
@@ -54,7 +54,7 @@
   text-align: center;
   justify-content: center;
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 25px;
     top: 30%;
   }
 }
@@ -70,7 +70,8 @@
   font-weight: bold;
   position: absolute;
   bottom: -100px;
-  left: 50%;
+  left: 51%;
+  justify-content: center;
   transform: translate(-50%, 0%);
   min-width: 280px; 
   @media (max-width: 768px) {
@@ -81,4 +82,10 @@
 
 .free-class-button:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .embla {
+    height: 320px;
+  }
 }
