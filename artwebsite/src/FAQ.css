@@ -9,7 +9,7 @@
   margin-bottom: 20px;
   margin-top: 10px;
   margin-left: 20px;
-  color: #5B5B5B;
+  color: black;
 }
 
 .faq-item {
@@ -19,18 +19,17 @@
 
 .faq-question {
   font-size: 20px;
+  font-weight: 500;
   cursor: pointer;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #A59A6C;
-  color: #FAF9F6;
+  background-color: #DEE3D2;
+  color: black;
   border-radius: 5px;
-  border-width: 3px;
-  border-color: #607432;
-  border-style: solid;
+  border: 3px solid #5B5B5B;
 }
 
 .faq-question:hover {
@@ -55,15 +54,15 @@
 .faq-answer {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #A59A6C;
-  color: #FAF9F6;
+  background-color: #DEE3D2;
+  color: black;
   display: block;
   border-radius: 5px;
   margin-top: -10px;
   border-width: 3px;
-  border-color: #607432;
+  border-color: #5B5B5B;
   border-style: solid;
-  border-top-color: #A59A6C;
+  border-top-color: #DEE3D2;
 }
 
 .faq-answer ul {
