@@ -35,7 +35,7 @@
 }
 
 .birthday-contact {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
@@ -180,12 +180,17 @@
   }
 
   .birthday-pricing {
-  gap: 50px;
+    gap: 50px;
+    flex-direction: column;
   }
 
   .birthday-section-pictures{
     flex-direction: column;
     align-items: center;
     font-size: 15px;
+  }
+
+  .birthday-booking{
+    flex-direction: column;
   }
 }

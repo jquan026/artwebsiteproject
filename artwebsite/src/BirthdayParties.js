@@ -138,7 +138,12 @@ const BirthdayParties = () => {
         </div>
       </div>
       <div className="birthday-booking">
-        <p className="text-font"><span className='right-spacing'>Ready to Book?</span>Email <BirthdayBooking/> </p>
+        <div>
+            <p className="text-font bottom-spacing">Ready to Book?</p>
+        </div>
+        <div>
+            <p className="text-font"> Email: <BirthdayBooking/></p>
+        </div>
       </div>
     </div>
   );
