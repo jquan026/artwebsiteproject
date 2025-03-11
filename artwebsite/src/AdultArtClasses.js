@@ -12,7 +12,7 @@ const AdultArtClasses = () => {
         <div className="title-text">
             <h2>Adult Art Classes</h2>
         </div>
-        <div className="img-photo">
+        <div className="img-photos">
             <img src={paintingPicture} className="adult-classes-top-pic"></img>
         </div>
         <div className="top-content">
@@ -22,7 +22,7 @@ const AdultArtClasses = () => {
             <div className='line'></div>
         </div>
         <div className="class-options">
-            <div className="bg-rect">
+            <div className="bg-rectt">
                 <div className="class-options-content">
                     <div className="class-options-texts">
                         <h4>We offer two choices when it comes to adult participation:</h4>
@@ -52,12 +52,12 @@ const AdultArtClasses = () => {
             <div className='line'></div>
         </div>
         <div className="about-trials">
-            <div className="bg-rect">
-                <div className="about-trials-content">
-                    <div className="img-photo">
+            <div className="bg-rectt">
+                <div className="about-trials-contents">
+                    <div className="img-photos">
                         <img src={aboutTrialsPicture} className="trials-pic"></img>
                     </div>
-                    <div className="about-trials-texts">
+                    <div className="about-trials-textss">
                         <h4>About our Trials:</h4>
                         <p> For a trial lesson at the studio, please call and leave a message. They will call you back with more information. The first trial class will be invoiced before the first lesson. If you like the class and would like to sign up for a month, you will receive one class credit to apply to that first month tuition.</p>
 

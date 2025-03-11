@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-.img-photo {
+.img-photos {
   text-align: center;
   margin-top: 60px;
 }
@@ -36,12 +36,12 @@
   margin-top: 45px;
 }
 
-.bg-rect {
+.bg-rectt {
   border: 2px;
   background: #DEE3D2;
-  border-radius: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .class-options-content {
@@ -88,13 +88,14 @@
   margin-right:50px;
 }
 
-.about-trials-content {
+.about-trials-contents {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
   justify-content: space-around;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .trials-pic {
@@ -104,10 +105,15 @@
   margin-left: 20px;
 }
 
-.about-trials-texts {
+.about-trials-textss {
   margin-top: 80px;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-right: 20px;
+}
+
+.about-trials-textss h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 800px) {
@@ -138,18 +144,18 @@
     text-align: center;
   }
 
-  .about-trials-content {
+  .about-trials-contents {
     flex-direction: column;
   }
 
   .trials-pic {
     height: 200px;
     width: auto;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-left: 0px;
   }
 
-  .about-trials-texts {
+  .about-trials-textss {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
