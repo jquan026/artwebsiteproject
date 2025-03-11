@@ -95,7 +95,7 @@ const LocationsLaMesa = () => {
                     <div className="refer-a-friend-title-text">
                         <h2>Refer a Friend Program:</h2>
                     </div>
-                    <div className="refer-a-friend-content-text">
+                    <div className="refer-a-friend-content-texts">
                         <p>For each family/friend who signs up for at least one month (not including the free art lesson) using your referral, you get a free art lesson!</p>
                         <p style={{fontSize: '15px'}}>(There are no limits to the number of free art lessons you can earn!)</p>
                     </div>
