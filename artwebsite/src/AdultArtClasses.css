@@ -64,10 +64,16 @@
   margin-right: 20px;
 }
 
-.class-options-texts p{
+.class-options-texts p, .adult-class-email{
   font-size: 18px;
   margin-bottom: 20px;
   margin-right:20px;
+  color: black;
+  text-decoration: none;
+}
+
+.adult-class-email:hover {
+  text-decoration: underline;
 }
 
 .about-classes {
