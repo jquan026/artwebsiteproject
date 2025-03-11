@@ -78,7 +78,7 @@ const RegularClasses = () => {
         <div className="bg-rect">
           <div className="about-trials-content">
             <div className="img-photo">
-              <img src={aboutTrialsPicture} className="about-trials-pic"></img>
+              <img src={aboutTrialsPicture} className="about-trials-picture"></img>
             </div>
             <div className="about-trials-texts">
               <h4>About our Trials:</h4>
