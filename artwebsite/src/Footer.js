@@ -37,6 +37,9 @@ const Footer = () => {
           <Link to="/faq" className="footer-q">
             FREQUENTLY ASKED QUESTIONS
           </Link>
+          <Link to="/faq" className="footer-q2">
+            FAQ
+          </Link>
         </div>
       </div>
       <div className="footer-img">
