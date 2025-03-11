@@ -12,12 +12,14 @@
   flex-direction: column;
   align-items: center; 
   text-align: center;
+
 }
 
 .summer-title {
   font-size: 35px;
   padding: 20px 0px;
   white-space: nowrap;
+
 }
 
 .summer-intro {
@@ -103,7 +105,7 @@
 }
 
 .summer-body-intro p {
-  text-align: left;
+  text-align: center;
   width: 40%
 }
 
@@ -177,6 +179,15 @@
     max-width: 250px; 
     height: auto;
   }
+
+  .summer-title {
+    font-size: 35px;
+    padding: 20px 0px;
+    white-space: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
 }
 
 .bigger-fontsize{
@@ -205,7 +216,7 @@
   } */
 
   .summer-body-intro p {
-    width:100%;
+    width:70%;
     margin-bottom: 40px;
     text-align: center;
   }
@@ -214,6 +225,9 @@
     font-size: 25px;
   }
 
+  .summer-img{
+    display: none;
+  }
 
 }
 
