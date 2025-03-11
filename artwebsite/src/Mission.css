@@ -63,6 +63,13 @@ hr {
   position: relative;
 }
 
+@media (min-width: 566px) {
+  .photo {
+    margin-top:50px;
+  }
+
+}
+
 @media (max-width: 768px) {
   .mission {
     flex-direction: column;
@@ -73,6 +80,10 @@ hr {
     width: 100%;
     height: auto;
     margin-top: 0;
+  }
+
+  .photo {
+
   }
 
   .statement {
