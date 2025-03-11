@@ -10,11 +10,19 @@ const CharterSchool = () => {
       <div className="charter-header">
         <div className="title-section">
           <div className="img-photo">
-            <img src={corgyPicture} className="pict-image"></img>
+            <img
+              src={corgyPicture}
+              alt="Corgy Art Work"
+              className="pict-image"
+            ></img>
           </div>
           <p className="charter-title">Charter School Art Program</p>
           <div className="img-photo">
-            <img src={vanGoghPicture} className="pict-image"></img>
+            <img
+              src={vanGoghPicture}
+              alt="Van Gogh Art Work"
+              className="pict-image"
+            ></img>
           </div>
         </div>
         <p className="charter-intro-subtitle">Welcome to Our Art Program!</p>

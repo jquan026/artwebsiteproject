@@ -1,7 +1,8 @@
 import React from 'react';
 import './Homepage2.css';
 import LocationCards from './LocationCards';
-import Slides from './Slide'
+// import Slides from './Slide'
+import Slides from "./Slide2";
 import Mission from './Mission'
 
 const Homepage2 = () => {

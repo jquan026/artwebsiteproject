@@ -12,7 +12,7 @@ const SummerCamp = () => {
     <div>
       <div className="summer-header">
         <div className="summer-images">
-          <img src={Camp1} className="summer-img" />
+          <img src={Camp1} alt="Camp Craft" className="summer-img" />
         </div>
         <div className="summer-intro">
           <p className="summer-title">Summer Camp 2025</p>
@@ -20,7 +20,11 @@ const SummerCamp = () => {
           <p className="summer-intro">4 days | 10 AM - 1 PM | $220</p>
         </div>
         <div className="summer-images">
-          <img src={Camp2} className="summer-img" />
+          <img
+            src={Camp2}
+            alt="Students showing off bracelets"
+            className="summer-img"
+          />
         </div>
       </div>
 
@@ -192,9 +196,21 @@ const SummerCamp = () => {
           explore new techniques, and most of all, have fun!
         </p>
         <div className="summer-body-images">
-          <img src={Camp3} className="summer-body-img" />
-          <img src={Camp4} className="summer-body-img" />
-          <img src={Camp5} className="summer-body-img" />
+          <img
+            src={Camp3}
+            alt="Camp Craft on Window"
+            className="summer-body-img"
+          />
+          <img
+            src={Camp4}
+            alt="Popsicle Stick Camp Craft"
+            className="summer-body-img"
+          />
+          <img
+            src={Camp5}
+            alt="Fox in Den Camp Craft"
+            className="summer-body-img"
+          />
         </div>
       </div>
 

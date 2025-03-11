@@ -13,7 +13,11 @@ const AdultArtClasses = () => {
         <h2>Adult Art Classes</h2>
       </div>
       <div className="img-photos">
-        <img src={paintingPicture} className="adult-classes-top-pic"></img>
+        <img
+          src={paintingPicture}
+          alt="Student Art Work"
+          className="adult-classes-top-pic"
+        ></img>
       </div>
       <div className="top-content">
         <p>Welcome to our Studio!</p>
@@ -41,7 +45,10 @@ const AdultArtClasses = () => {
                 attendance twice a month. Spaces are limited. Please email to
                 check availability for this adult only class.
               </p>
-              <a className="adult-class-email" href="mailto:artwithlarisse@gmail.com">
+              <a
+                className="adult-class-email"
+                href="mailto:artwithlarisse@gmail.com"
+              >
                 artwithlarisse@gmail.com
               </a>
             </div>
@@ -52,6 +59,7 @@ const AdultArtClasses = () => {
         <img
           src={adultClassPaintingPicture}
           className="adult-class-painting-pic"
+          alt="Student Painting"
         ></img>
       </div>
       <div className="about-classes">
@@ -97,7 +105,11 @@ const AdultArtClasses = () => {
         <div className="bg-rectt">
           <div className="about-trials-contents">
             <div className="img-photos">
-              <img src={aboutTrialsPicture} className="trials-pic"></img>
+              <img
+                src={aboutTrialsPicture}
+                alt="Bearded Dragon Art Work"
+                className="trials-pic"
+              ></img>
             </div>
             <div className="about-trials-textss">
               <h4>About our Trials:</h4>

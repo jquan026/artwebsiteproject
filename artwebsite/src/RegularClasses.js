@@ -13,7 +13,11 @@ const RegularClasses = () => {
         <h2>Art Classes</h2>
       </div>
       <div className="img-photo">
-        <img src={mainPicture} className="reg-classes-top-pic"></img>
+        <img
+          src={mainPicture}
+          alt="Instructor and Student"
+          className="reg-classes-top-pic"
+        ></img>
       </div>
       <div className="line-container">
         <div className="line"></div>
@@ -78,7 +82,11 @@ const RegularClasses = () => {
         <div className="bg-rect">
           <div className="about-trials-content">
             <div className="img-photo">
-              <img src={aboutTrialsPicture} className="about-trials-picture"></img>
+              <img
+                src={aboutTrialsPicture}
+                alt="Student using Pastels"
+                className="about-trials-picture"
+              ></img>
             </div>
             <div className="about-trials-texts">
               <h4>About our Trials:</h4>
