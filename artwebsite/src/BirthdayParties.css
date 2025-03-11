@@ -39,6 +39,10 @@
   font-size: 20px;
 }
 
+.birthday-intro-desc p{
+  text-align: center;
+}
+
 .birthday-intro-desc-text {
   margin-bottom: 10px;
   font-size: 20px;
@@ -48,7 +52,7 @@
 .birthday-image img {
   display: block;
   width: 100%;
-  max-width: 300px; 
+  max-width: 300px;
   height: auto; 
   border-radius: 10px; 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
@@ -83,6 +87,7 @@
   margin: 0;
   width: 100%;
   max-width: 1100px;
+  margin-top: 20px;
 }
 
 .birthday-booking {
@@ -159,14 +164,22 @@
   text-align: center;
 }
 
-.pict-image {
-  height: 300px;
-  width: auto;
+.pict-images {
+  width: 300px;
+  height: auto;
 }
 
 .birthday-image {
   text-align: center;
   margin-top: 20px;
+}
+
+.top-small-space1 {
+  margin-top: 10px;
+}
+
+.top-small-space2 {
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -192,5 +205,13 @@
 
   .birthday-booking{
     flex-direction: column;
+  }
+
+  .top-small-space1 {
+    margin-top: 10px;
+  }
+
+  .top-small-space2 {
+    margin-top: 10px;
   }
 }
