@@ -42,11 +42,11 @@ const LocationCards = () => {
         <div className="card">
           <div className="card-inner">
             <div className="card-front">
-              <p>Bonita</p>
+              <p>Santee</p>
               <p className="studio">Studio</p>
               <img
-                src={bonitafront}
-                alt="Bonita location"
+                src={santeefront}
+                alt="Santee location"
                 className="studioimg"
               ></img>
             </div>
@@ -69,11 +69,11 @@ const LocationCards = () => {
         <div className="card">
           <div className="card-inner">
             <div className="card-front">
-              <p>Santee</p>
+              <p>Bonita</p>
               <p className="studio">Studio</p>
               <img
-                src={santeefront}
-                alt="Santee location"
+                src={bonitafront}
+                alt="Bonita location"
                 className="studioimg"
               ></img>
             </div>
