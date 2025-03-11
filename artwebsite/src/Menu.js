@@ -156,6 +156,50 @@ export default function TemporaryDrawer() {
 
         <ListItem className="menu-item-dropdown" sx={{ display: "block" }}>
           <ListItemButton
+            onClick={() => toggleDropdown("camps")}
+            sx={{ justifyContent: "flex-start" }}
+          >
+            <Brush className="icon" />
+            Art Parties & Events
+          </ListItemButton>
+          {isDropdownOpen.camps && (
+            <List className="items" sx={{ pl: 2 }}>
+              <ListItem
+                component={Link}
+                to="/birthday-parties"
+                onClick={handleCloseDrawer}
+              >
+                <ListItemText
+                  primary="Birthday Art Parties"
+                  style={{ color: "black" }}
+                />
+              </ListItem>
+              <ListItem
+                component={Link}
+                to="/paint-parties"
+                onClick={handleCloseDrawer}
+              >
+                <ListItemText
+                  primary="Paint Parties"
+                  style={{ color: "black" }}
+                />
+              </ListItem>
+              <ListItem
+                component={Link}
+                to="/scout-classes"
+                onClick={handleCloseDrawer}
+              >
+                <ListItemText
+                  primary="Boy & Girl Scout Group Classes"
+                  style={{ color: "black" }}
+                />
+              </ListItem>
+            </List>
+          )}
+        </ListItem>
+
+        <ListItem className="menu-item-dropdown" sx={{ display: "block" }}>
+          <ListItemButton
             onClick={() => toggleDropdown("tuition")}
             sx={{ justifyContent: "flex-start" }}
           >
