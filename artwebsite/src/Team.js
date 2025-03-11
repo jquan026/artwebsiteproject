@@ -42,7 +42,7 @@ const Team = () => {
           <p className="bio">
             Jessica joined us in 2012. She really enjoys working with oils and
             watercolors. She enjoys seeing her students grow and develop on
-            their artistic journey. She . also has found time for face painting
+            their artistic journey. She also has found time for face painting
             and balloon twisting. When not at the studio she can be found
             creating art and memories with her two amazing kids and loving
             husband.
@@ -56,7 +56,7 @@ const Team = () => {
           <p className="team-name">Jelisa Corpuz</p>
           <p className="team-des">Bonita Studio Program Director</p>
           <p className="bio">
-            Jeslisa joined us in 2015. Her preferred art materials include
+            Jelisa joined us in 2015. Her preferred art materials include
             watercolors, pastel on velour, and digital art -- in which her style
             stems from the anime/manga genre (sometimes realism), mixed into the
             fine arts program that is used at Art with Larisse. Jelisa has taken
@@ -64,7 +64,7 @@ const Team = () => {
             crafts such as sticker decorating and sewing. In her spare time, she
             is working towards becoming a preschool teacher to help nurture and
             grow curious minds of children. She appreciates a classroom balance
-            of trust, friendship. autonomy, and communication between herself
+            of trust, friendship, autonomy, and communication between herself
             and the students and their guardians.
           </p>
         </div>
