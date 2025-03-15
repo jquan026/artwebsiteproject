@@ -153,6 +153,7 @@
 
   .class-options-texts h4{
     text-align: center;
+    font-size: 20px;
   }
 
   .about-trials-content {
@@ -169,14 +170,14 @@
   }
 
   .button2 {
-    padding: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin-top:5px;
     margin-bottom:5px;
-    width: 150px;
     text-align: center;
     justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    font-size: 14px;
+    padding: 6px 15px;
   }
 
   .about-trials-picture {
@@ -195,5 +196,10 @@
 
   .about-trials{
     margin-right: 20px;
+  }
+
+  .class-options-texts li {
+    font-size: 16px;
+    margin-bottom: 8px;
   }
 }
