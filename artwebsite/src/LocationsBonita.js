@@ -50,7 +50,7 @@ const LocationsBonita = () => {
                         </div>
                         <div className="schedule-box-index">
                             <p>Tuesday</p>
-                            <h4>3:00 - 4:30 PM</h4>
+                            {/* <h4>3:00 - 4:30 PM</h4> */}
                             <h4>4:30 - 5:45 PM</h4>
                             <h4>6:00 - 7:15 PM</h4>
                         </div>
