@@ -122,6 +122,16 @@
   margin-bottom: 10px;
 }
 
+.location-link {
+  color: black;
+  text-decoration: none;
+}
+
+.location-link:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 800px) {
 
   .adult-classes-top-pic, .adult-class-painting-pic {

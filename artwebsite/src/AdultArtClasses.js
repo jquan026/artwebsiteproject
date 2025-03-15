@@ -1,6 +1,7 @@
 import React from "react";
 import './AdultArtClasses.css';
 import Footer from './Footer';
+import { Link } from "react-router-dom";
 
 import paintingPicture from "./img/adultPortrait.avif";
 import aboutTrialsPicture from "./img/lizardDrawing.avif";
@@ -65,7 +66,21 @@ const AdultArtClasses = () => {
       <div className="about-classes">
         <h4>About our Classes:</h4>
         <ul>
-          <li>We have 3 locations, La Mesa, Santee, and Bonita.</li>
+          <li>
+            We have 3 locations,{" "}
+            <Link to="/locations/la-mesa" className="location-link">
+              La Mesa
+            </Link>
+            ,{" "}
+            <Link to="/locations/santee" className="location-link">
+              Santee
+            </Link>
+            , and {" "}
+            <Link to="/locations/bonita" className="location-link">
+              Bonita
+            </Link>
+            .
+          </li>
           <li>
             All of our studios offer fine art classes to children and adults
             ages 5 and up.
