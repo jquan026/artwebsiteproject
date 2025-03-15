@@ -6,7 +6,7 @@ import Slides from "./Slide2";
 import Mission from './Mission'
 
 const Homepage2 = () => {
-  const OPTIONS = { loop: true }
+  const OPTIONS = { loop: true};
   const SLIDE_COUNT = 5
   const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
   return (
