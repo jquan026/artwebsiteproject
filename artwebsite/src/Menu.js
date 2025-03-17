@@ -159,7 +159,7 @@ export default function TemporaryDrawer() {
             onClick={() => toggleDropdown("camps")}
             sx={{ justifyContent: "flex-start" }}
           >
-            <Brush className="icon" />
+            <PartyPopper className="icon" />
             Art Parties & Events
           </ListItemButton>
           {isDropdownOpen.camps && (
@@ -296,16 +296,21 @@ export default function TemporaryDrawer() {
     </Box>
   );
 
-  const isMobileOrTablet = useMediaQuery("(max-width: 768px)");
+  const isMobile = useMediaQuery("(max-width: 768px)");
 
   return (
     <div>
-      {isMobileOrTablet && isButtonVisible && (
+      {isMobile && isButtonVisible && (
         <Button
-          id="learnMorebtn"
-          title="Learn More Button"
+          id="Hamburger Icon"
+          title="Hamburger Icon"
           onClick={toggleDrawer(true)}
-          style={{ position: "absolute", top: 25, right: 16, color: "black" }}
+          style={{
+            position: "absolute",
+            right: 16,
+            top: "4%",
+            color: "black",
+          }}
         >
           <Menu />
         </Button>
