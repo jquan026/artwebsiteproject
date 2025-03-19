@@ -49,13 +49,13 @@ const BirthdayParties = () => {
           <div className="birthday-section-pictures">
             <div className="birthday-section-picture-block">
                 <div className="birthday-image">
-                    <img src={bdayArtPartyGamePic} className="pict-images"></img>
+                    <img src={bdayArtPartyGamePic} alt="Girl playing pin the color on the paint palette" className="pict-images"></img>
                     <p className="top-small-space1">Game in progress!</p>
                 </div>
             </div>
             <div className="birthday-section-picture-block">
                 <div className="birthday-image">
-                    <img src={bdayArtParty1} className="pict-images"></img>
+                    <img src={bdayArtParty1} alt="Birthday Party holding art pieces" className="pict-images"></img>
                     <p className="top-small-space2">End results!</p>
                 </div>
             </div>
