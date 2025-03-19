@@ -8,7 +8,9 @@ import paintEvent4 from "./img/paintEvent4.avif";
 const AcrylicPaintEvents = () => {
   return (
     <div>
-      <p className="paint-header bolded top-spacing bottom-spacing">Acrylic Painting Events</p>
+      <p className="paint-header bolded top-spacing bottom-spacing">
+        Acrylic Painting Events
+      </p>
       <div>
         <img
           src={paintEvent1}
@@ -60,7 +62,10 @@ const AcrylicPaintEvents = () => {
         </ul>
         <p className="top-spacing">
           If you would like to inquire about more information or set up an
-          event, please email us at: <span className="bolded">artwithlarisse@gmail.com</span>
+          event, please email us at:{" "}
+          <a className="event-email" href="mailto:artwithlarisse@gmail.com">
+            artwithlarisse@gmail.com
+          </a>
         </p>
         <p>
           If you are looking to host an event at a private location other than

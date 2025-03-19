@@ -46,7 +46,7 @@ const TuitionRates = () => {
           Charter school students billing information:
         </p>
         <p className="reg-font-size">
-          Please follow this <Link to="/charter-schools">link</Link> to learn
+          Please follow this <Link to="/charter-schools" className="charter-link">link</Link> to learn
           more.
         </p>
         <p className="tuition-subtitle">

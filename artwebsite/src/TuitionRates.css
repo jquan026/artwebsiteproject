@@ -97,6 +97,15 @@
   font-weight: bolded;
 }
 
+.charter-link {
+  color: #0056b3; 
+  text-decoration: none;
+}
+
+.charter-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 800px) {
   .tuition-cards {
     flex-direction: column;

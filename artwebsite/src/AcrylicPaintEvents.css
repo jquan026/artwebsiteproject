@@ -101,3 +101,12 @@
 .bottom-spacing{
   margin-bottom:30px;
 }
+
+.event-email {
+  color: black;
+  text-decoration: none;
+}
+
+.event-email:hover {
+  text-decoration: underline;
+}

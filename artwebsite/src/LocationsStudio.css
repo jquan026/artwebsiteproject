@@ -156,7 +156,6 @@
 .studio-link {
   color: #0056b3; 
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 
 .studio-link:hover {
