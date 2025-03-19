@@ -156,13 +156,13 @@ export default function TemporaryDrawer() {
 
         <ListItem className="menu-item-dropdown" sx={{ display: "block" }}>
           <ListItemButton
-            onClick={() => toggleDropdown("camps")}
+            onClick={() => toggleDropdown("events")}
             sx={{ justifyContent: "flex-start" }}
           >
             <PartyPopper className="icon" />
             Art Parties & Events
           </ListItemButton>
-          {isDropdownOpen.camps && (
+          {isDropdownOpen.events && (
             <List className="items" sx={{ pl: 2 }}>
               <ListItem
                 component={Link}
