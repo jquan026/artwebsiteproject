@@ -13,7 +13,7 @@ const LocationsLaMesa = () => {
             <p>Established in 2001</p>
         </div>
         <div className="studio-photo">
-            <img src={laMesaLocationInside} className="studio-pic"></img>
+            <img src={laMesaLocationInside} alt="La Mesa Interior" className="studio-pic"></img>
         </div>
         <div className="top-content">
             <h4>We offer a free introductory lesson to students ages 5-17!</h4>
@@ -85,7 +85,7 @@ const LocationsLaMesa = () => {
                     <ul>
                         <li>Class time slots are 1 hour and 15 minutes long.</li>
                         <li>The first hour is for art instruction. The last 15 minutes of class is for clean up. Please plan to be at the studio 1 hour after the start of class and students will exit when they are done cleaning up.</li>
-                        <li>If you are looking for more information regarding adult classes, please click <Link to="/adult-classes"> here</Link>.</li>
+                        <li>If you are looking for more information regarding adult classes, please click <Link to="/adult-classes" className="studio-link"> here</Link>.</li>
                     </ul>
                 </div>
             </div>
@@ -101,7 +101,7 @@ const LocationsLaMesa = () => {
                     </div>
                 </div>
                 <div className="refer-a-friend-photo">
-                    <img src={referAFriendPicture} className="refer-a-friend-pic"></img>
+                    <img src={referAFriendPicture} alt="Girl Art Piece" className="refer-a-friend-pic"></img>
                 </div>
             </div>
     </div>
