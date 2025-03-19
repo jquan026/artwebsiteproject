@@ -24,7 +24,7 @@ const BirthdayParties = () => {
           </div>
         </div>
         <div className="birthday-image">
-          <img src={bdayArtPartyPic} className="pic-image"></img>
+          <img src={bdayArtPartyPic} alt="Girl using pastels on toucan art piece " className="pic-image"></img>
         </div>
       </div>
 
