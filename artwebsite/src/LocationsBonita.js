@@ -13,7 +13,7 @@ const LocationsBonita = () => {
             <p>Established in 2015</p>
         </div>
         <div className="studio-photo">
-            <img src={bonitaLocationInside} alt="Bonita Interior" className="studio-pic"></img>
+            <img src={bonitaLocationInside} alt="Bonita Interior" className="studio-pics"></img>
         </div>
         <div className="top-content">
             <h4>We offer a free introductory lesson to students ages 5-17!</h4>

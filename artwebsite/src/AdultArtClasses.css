@@ -4,6 +4,10 @@
   font-family: Arial;
 }
 
+.top-content p{
+  font-size: 20px;
+}
+
 .line {
   width: 80%;
   height: 2px;
@@ -50,22 +54,23 @@
   margin-right: 20px;
 }
 
-.class-options-texts {
+.class-options-text {
   margin-left: 25px;
+
 }
 
-.class-options-texts, .about-classes, .about-trials-texts h4{
-  font-size: 22px;
+.class-options-text, .about-classes, .about-trials-texts h4{
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
-.class-options-texts h4{
+.class-options-text h4{
   margin-bottom: 20px;
   margin-right: 20px;
 }
 
-.class-options-texts p, .adult-class-email{
-  font-size: 18px;
+.class-options-text p, .adult-class-email{
+  font-size: 20px;
   margin-bottom: 20px;
   margin-right:20px;
   color: black;
@@ -85,10 +90,11 @@
 
 .about-classes h4 {
   margin-bottom:20px;
+  font-size: 25px;
 }
 
 .about-classes li {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 5px;
   margin-left: 50px;
   margin-right:50px;
@@ -111,13 +117,14 @@
   margin-left: 20px;
 }
 
-.about-trials-textss {
+.about-trials-text-content {
   margin-top: 80px;
   margin-left: 40px;
   margin-right: 20px;
+  font-size: 20px;
 }
 
-.about-trials-textss h4 {
+.about-trials-text-content h4 {
   font-size: 25px;
   margin-bottom: 10px;
 }
@@ -172,7 +179,7 @@
     margin-left: 0px;
   }
 
-  .about-trials-textss {
+  .about-trials-text-content {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;

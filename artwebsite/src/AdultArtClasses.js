@@ -29,7 +29,7 @@ const AdultArtClasses = () => {
       <div className="class-options">
         <div className="bg-rectt">
           <div className="class-options-content">
-            <div className="class-options-texts">
+            <div className="class-options-text">
               <h4>
                 We offer two choices when it comes to adult participation:
               </h4>
@@ -126,7 +126,7 @@ const AdultArtClasses = () => {
                 className="trials-pic"
               ></img>
             </div>
-            <div className="about-trials-textss">
+            <div className="about-trials-text-content">
               <h4>About our Trials:</h4>
               <p>
                 {" "}

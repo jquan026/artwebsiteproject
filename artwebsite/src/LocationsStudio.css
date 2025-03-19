@@ -23,8 +23,13 @@
   margin-top: 60px;
 }
 
-.studio-pic, .refer-a-friend-pic{
-  height: 300px;
+.studio-pics {
+  height: 400px;
+  width: auto;
+}
+
+.refer-a-friend-pic{
+  height: 350px;
   width: auto;
 }
 
@@ -145,7 +150,11 @@
  margin-bottom: 70px;
  margin-left: 90px;
  margin-right: 60px;
- margin-top: 100px;
+ margin-top: 40px;
+}
+
+.refer-a-friend-content {
+  margin-top: 120px;
 }
 
 .refer-a-friend-title-texts h2{
@@ -214,7 +223,12 @@
 
 @media (max-width: 400px) {
 
-  .studio-pic, .refer-a-friend-pic{
+  .studio-pics{
+  height: 400px;
+    width: auto;
+  }
+
+  .refer-a-friend-pic{
     height: 200px;
     width: auto;
   }
