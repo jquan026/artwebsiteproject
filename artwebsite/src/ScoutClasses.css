@@ -14,14 +14,23 @@
 .scout-intro-content {
     display: flex;
     flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 25px;
 }
 
 .scout-intro-texts {
-  margin-top: 70px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  gap: 10px
+}
+
+.scout-intro-texts p {
+  text-align: left;
 }
 
 .bg-rect {
@@ -140,7 +149,7 @@
 @media (max-width: 850px) {
 
   .photo-pic {
-      height: 200px;
+      height: 300px;
       width: auto;
   }
 
