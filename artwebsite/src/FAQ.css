@@ -6,10 +6,11 @@
 
 .faq-header {
   font-size: 35px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-top: 40px;
   margin-left: 20px;
   color: black;
+  text-align: center;
 }
 
 .faq-item {
@@ -18,7 +19,7 @@
 }
 
 .faq-question {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
@@ -33,7 +34,7 @@
 }
 
 .faq-question:hover {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 .faq-columns {
@@ -53,7 +54,7 @@
 
 .faq-answer {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #DEE3D2;
   color: black;
   display: block;
@@ -72,7 +73,13 @@
 
 
 @media (max-width: 768px) {
+  .faq-header{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
   .faq-columns {
     grid-template-columns: 1fr; 
   }
+
 }

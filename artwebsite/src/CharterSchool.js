@@ -121,7 +121,7 @@ const CharterSchool = () => {
       </div>
 
       <div className="charter-policies">
-        <p className="charter-subtitle">Policies</p>
+        <h4 className="charter-subtitle">Policies</h4>
         <ul>
           <li>
             Studio discounts for 12 weeks or siblings do not apply to charter

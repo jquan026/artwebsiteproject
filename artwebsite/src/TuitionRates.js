@@ -27,7 +27,7 @@ const TuitionRates = () => {
           </div>
         </div>
         <ul>
-          <li className="bolded">Regular monthly tuition:</li>
+          <li className="bolded small-bottom-spacing">Regular monthly tuition:</li>
           <ul>
             <li className="bottom-spacing">
               $25 per class. To reserve a spot in class, students must pay for
@@ -173,9 +173,9 @@ const TuitionRates = () => {
           Twice a week monthly tuition discount:
         </p>
         <ul>
-          <li>
+          <li className="small-bottom-spacing">
             The discount is 10% off of the lowest tuition amount.
-            <ul>
+            <ul className="small-top-spacing">
               <li>
                 For example if you are scheduled to attend for 4 Monday classes
                 and 5 Friday classes, the discount would apply to the 4 Monday

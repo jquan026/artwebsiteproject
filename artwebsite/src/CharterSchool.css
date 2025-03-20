@@ -34,6 +34,9 @@
 
 .charter-condition {
   font-size: 15px;
+  margin-left:40px;
+  margin-right:40px;
+  margin-bottom:90px;
 }
 
 .charter-header {
@@ -85,7 +88,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   width: 80%; 
-  margin: 20px auto; 
+  margin: 20px auto;
 }
 
 .charter-costs-box {
@@ -154,6 +157,11 @@
   margin: 20px auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
   border-radius: 10px;
+  margin-top: 40px;
+}
+
+.charter-policies h4 {
+  margin-top: 15px;
 }
 
 .charter-policies ul{
@@ -167,6 +175,31 @@
 }
 
 .pict-image {
-  height: 200px;
+  height: 300px;
   width: auto;
+}
+
+@media (max-width: 800px) {
+  .pict-image{
+    visibility: hidden;
+    display: none;
+  }
+
+  .charter-sub-title{
+    font-size: 20px;
+  }
+
+  .charter-costs-box {
+    font-size: 18px;
+  }
+
+  .charter-costs-box-price{
+    font-size: 18px;
+  }
+
+  .charter-condition{
+   margin-left:30px;
+   margin-right:30px;
+   margin-bottom:70px;
+  }
 }

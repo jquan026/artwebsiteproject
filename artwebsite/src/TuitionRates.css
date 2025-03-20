@@ -3,11 +3,13 @@
   text-align: center;
   padding: 30px;
   font-weight: bold;
+  margin-top:30px;
 }
 
 .tuition-subtitle {
   font-size: 30px;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .tuition-cards {
@@ -62,7 +64,7 @@
 }
 
 .tuition-info li {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .tuition-sibling-chart {
@@ -90,7 +92,7 @@
 }
 
 .bottom-spacing {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .bolded{
@@ -104,6 +106,14 @@
 
 .charter-link:hover {
   text-decoration: underline;
+}
+
+.small-bottom-spacing{
+  margin-bottom:7px;
+}
+
+.small-top-spacing{
+  margin-top:7px;
 }
 
 @media (max-width: 800px) {

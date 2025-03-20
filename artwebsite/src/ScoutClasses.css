@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.scout-intro{
+  margin-top: 30px;
+}
+
 .scout-intro-content {
     display: flex;
     flex-direction: row;
@@ -67,6 +71,7 @@
 
 .line-container {
   background-color: transparent;
+  margin-bottom:0;
 }
 
 .scout-detail{
@@ -118,7 +123,7 @@
 
 .scout-detail-texts li{
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-right:30px;
   margin-left: 20px;
 }
@@ -131,6 +136,11 @@
   justify-content: space-around;
 }
 
+.extra-details-texts h4{
+  font-size: 25px;
+  margin-bottom:10px;
+}
+
 .extra-details-texts{
     margin-top: 70px;
     margin-right: 50px;
@@ -140,6 +150,10 @@
 .extra-details-texts ul{
   margin-left: 50px;
   margin-bottom: 30px;
+}
+
+.extra-details-texts li{
+  margin-bottom: 7px;
 }
 
 .about-trials-texts p {

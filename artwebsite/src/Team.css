@@ -1,7 +1,13 @@
+.team-container{
+  margin-bottom:60px;
+}
+
 .team-header {
   font-size: 35px;
+  font-weight:bold;
   text-align: center; 
   margin: 50px 0px;
+  margin-top:60px;
 }
 
 .team-grid {
@@ -10,7 +16,7 @@
   gap: 100px; 
   width: 100%; 
   justify-items: center; 
-  align-items: start; 
+  align-items: start;
 }
 
 .team-item {
@@ -19,6 +25,7 @@
   align-items: center;
   justify-content: flex-start;
   text-align: center;
+
 }
 
 .team-item:nth-child(even) {
@@ -58,7 +65,8 @@
 .bio {
   text-align: left;
   padding: 15px 5px;
-  width: 510px
+  width: 510px;
+  font-size: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -105,7 +113,6 @@
 
 @media (max-width: 480px) {
   .team-header {
-    font-size: 24px; 
     padding: 20px;
   }
 

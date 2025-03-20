@@ -8,7 +8,7 @@ import paintEvent4 from "./img/paintEvent4.avif";
 const AcrylicPaintEvents = () => {
   return (
     <div>
-      <p className="paint-header bolded top-spacing bottom-spacing">
+      <p className="paint-header bolded">
         Acrylic Painting Events
       </p>
       <div>

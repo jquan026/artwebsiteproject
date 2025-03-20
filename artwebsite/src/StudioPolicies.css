@@ -15,9 +15,9 @@
 
 .studio-title {
   font-size: 35px;
-  font-weight: 300;
+  font-weight: bold;
   padding: 10px 0;
-  margin: 0;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -28,6 +28,7 @@
   text-align: center;
   line-height: 1.6;
   margin: 0;
+  font-size: 20px;
 }
 
 .studio-policies {
@@ -40,6 +41,7 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 .studio-policy {
@@ -51,14 +53,14 @@
 
 .studio-subtitle {
   font-size: 30px;
-  font-weight: 200;
+  font-weight: bold;
   padding: 10px 0;
   margin: 20px 0;
 }
 
 .studio-policy-title {
   font-size: 25px;
-  font-weight: 200;
+  font-weight: bold;
   margin: 20px 0 10px 0;
   color: #333;
 }
@@ -86,4 +88,10 @@
 
 .line-container {
   background-color: transparent;
+}
+
+@media (max-width: 700px) {
+  .studio-subtitle{
+    text-align: center;
+  }
 }
