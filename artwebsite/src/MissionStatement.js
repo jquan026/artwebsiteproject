@@ -1,13 +1,26 @@
 import React from "react";
 import "./MissionStatement.css"
 
-import msp1 from "./img/MissionStatementPic1.avif";
-import msp2 from "./img/MissionStatementPic2.avif";
-import msp3 from "./img/MissionStatementPic3.avif";
-import msp4 from "./img/MissionStatementPic4.avif";
-import msp5 from "./img/MissionStatementPic5.avif";
+import Lightbox from "yet-another-react-lightbox";
+import {msSlides} from "./MissionStatementSlides.js";
+
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Inline from "yet-another-react-lightbox/plugins/inline";
+import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+
 
 const MissionStatement = () => {
+  const [index, setIndex] = React.useState(0);
+  const [open, setOpen] = React.useState(false);
+  const toggleOpen = (state: boolean) => () => setOpen(state);
+  const updateIndex = ({ index: current }: { index: number }) =>
+    setIndex(current);
+
   return (
     <div>
       <div className="mission-header">
@@ -31,29 +44,27 @@ const MissionStatement = () => {
         <div className='line'></div>
       </div>
 
-      <div className='picture-collage'>
-        <div className='two-pic-section'>
-            <div className="photo-container">
-                <img src={msp1} className="pic-image"></img>
-            </div>
-            <div className="photo-container">
-                <img src={msp2} className="pic-image"></img>
-            </div>
-        </div>
-        <div className='one-pic-section'>
-            <div className="photo-container">
-                <img src={msp3} className="pic-image"></img>
-            </div>
-        </div>
-        <div className='tw-pic-section'>
-            <div className="photo-container">
-                <img src={msp4} className="pic-image"></img>
-            </div>
-            <div className="photo-container">
-                <img src={msp5} className="pic-image"></img>
-            </div>
-        </div>
-      </div>
+      <Lightbox
+        index={index}
+        slides={msSlides}
+        plugins={[Inline, Fullscreen, Slideshow, Thumbnails, Zoom]}
+        on={{
+          view: updateIndex,
+          click: toggleOpen(true),
+        }}
+        carousel={{
+          padding: 0,
+          spacing: 0,
+        }}
+        inline={{
+          style: {
+            width: "100%",
+            maxWidth: "900px",
+            aspectRatio: "3/2",
+            margin: "50px auto",
+          },
+        }}
+      />
 
     </div>
   );
