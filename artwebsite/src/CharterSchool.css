@@ -98,7 +98,7 @@
   border: 1px solid #ccc;
   padding: 10px; 
   text-align: center; 
-  background: linear-gradient(rgba(253, 253, 253, 0.4), rgba(253, 253, 253, 0.4)), url('./img/card-front-texture.jpg');
+  background: linear-gradient(rgba(253, 253, 253, 0.4), rgba(253, 253, 253, 0.4)), url('./img/card-front-texture.avif');
   background-size: cover;
   font-size: 20px;
 }
@@ -108,7 +108,7 @@
   border: 1px solid #ccc;
   padding: 10px; 
   text-align: center; 
-  background: linear-gradient(rgba(253, 253, 253, 0.4), rgba(253, 253, 253, 0.4)), url('./img/card-front-texture.jpg');
+  background: linear-gradient(rgba(253, 253, 253, 0.4), rgba(253, 253, 253, 0.4)), url('./img/card-front-texture.avif');
   background-size: cover;
   font-size: 30px;
   justify-content: center;

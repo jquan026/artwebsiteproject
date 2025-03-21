@@ -11,6 +11,7 @@
   /*border-style: solid;*/
   border-width: 10px;
   border-color: #8A746B;
+  object-fit: cover;
   /*rotate: -6deg;*/
   margin-top: 50px;
   box-shadow: 0px 0px 0px 10px hsl(from rgb(177 110 23) 0 10% 50%),

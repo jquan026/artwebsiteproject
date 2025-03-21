@@ -286,7 +286,7 @@
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background: url('./img/card-front-texture.jpg') center/cover;
+    background: url('./img/card-front-texture.avif') center/cover;
   }
 
   .slide-text {
