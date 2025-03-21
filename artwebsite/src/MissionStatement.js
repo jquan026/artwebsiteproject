@@ -20,6 +20,8 @@ const MissionStatement = () => {
   const toggleOpen = (state: boolean) => () => setOpen(state);
   const updateIndex = ({ index: current }: { index: number }) =>
     setIndex(current);
+  const [autoplay, setAutoplay] = React.useState(true);
+  const [delay, setDelay] = React.useState(5000);
 
   return (
     <div>
@@ -47,6 +49,7 @@ const MissionStatement = () => {
       <Lightbox
         index={index}
         slides={msSlides}
+        slideshow={{ autoplay, delay }}
         plugins={[Inline, Fullscreen, Slideshow, Thumbnails, Zoom]}
         on={{
           view: updateIndex,
