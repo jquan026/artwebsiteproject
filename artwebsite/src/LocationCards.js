@@ -33,9 +33,9 @@ const LocationCards = () => {
               <a className="card-email" href="mailto:artwithlarisse@gmail.com">
                 artwithlarisse@gmail.com
               </a>
-              <button className="studio-page-link">
-                <Link to="/locations/la-mesa">View Studio</Link>
-              </button>
+              <a href="/locations/la-mesa" className="studio-page-link">
+                View Studio
+              </a>
             </div>
           </div>
         </div>
@@ -60,9 +60,9 @@ const LocationCards = () => {
               <a className="card-email" href="mailto:artwithlarisse@gmail.com">
                 artwithlarisse@gmail.com
               </a>
-              <button className="studio-page-link">
-                <Link to="/locations/santee">View Studio</Link>
-              </button>
+              <a href="/locations/santee" className="studio-page-link">
+                View Studio
+              </a>
             </div>
           </div>
         </div>
@@ -86,9 +86,9 @@ const LocationCards = () => {
               <a className="card-email" href="mailto:artwithlarisse@gmail.com">
                 artwithlarisse@gmail.com
               </a>
-              <button className="studio-page-link">
-                <Link to="/locations/bonita">View Studio</Link>
-              </button>
+              <a href="/locations/bonita" className="studio-page-link">
+                View Studio
+              </a>
             </div>
           </div>
         </div>
