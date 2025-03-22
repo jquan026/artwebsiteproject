@@ -1,6 +1,4 @@
 .RegularClass{
-  /*display: flex;
-  flex-direction: row;*/
   font-family: Arial;
 }
 
@@ -37,14 +35,6 @@
   margin-top: 45px;
   margin-bottom:45px;
 }
-
-/* .bg-rect {
-  border: 2px;
-  background: #DEE3D2;
-  border-radius: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
-} */
 
 .class-options-content {
   padding: 40px 30px;

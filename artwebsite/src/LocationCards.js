@@ -1,6 +1,5 @@
 import React from "react";
 import './LocationCards.css';
-import { Link } from "react-router-dom";
 import lamesafront from "./img/lamesafront.avif"
 import santeefront from "./img/santeeimg.avif"
 import bonitafront from "./img/bonitaimg.avif"

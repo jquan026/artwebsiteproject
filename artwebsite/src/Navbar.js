@@ -12,7 +12,6 @@ import {
 import "./Navbar2.css"; 
 
 const Navbar = () => {
-  // const [isDropdownOpen, setIsDropdownOpen] = useState({});
   const [isDropdownOpen, setIsDropdownOpen] = useState({
     classes: true,
     locations: true,

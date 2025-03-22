@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './RegularClasses.css';
-import Footer from './Footer';
 
 import mainPicture from "./img/regclassestoppicture.avif";
 import aboutTrialsPicture from "./img/regclasstrialpicture.avif";

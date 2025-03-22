@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './ScoutClasses.css';
-import Footer from './Footer';
 import ScoutEmail from './emails/ScoutBooking'
 
 import aboutTrialsPicture from "./img/girlScoutGroupPicture.avif";

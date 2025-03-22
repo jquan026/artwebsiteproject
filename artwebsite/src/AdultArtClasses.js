@@ -1,6 +1,5 @@
 import React from "react";
 import './AdultArtClasses.css';
-import Footer from './Footer';
 import { Link } from "react-router-dom";
 
 import paintingPicture from "./img/adultPortrait.avif";

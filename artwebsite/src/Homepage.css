@@ -17,11 +17,6 @@ main {
 }
 
 .flex-container{
-  /*background-color: #f8f8f8;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;*/
   display: flex;
   justify-content: space-between;
   background-color: pink;
@@ -59,7 +54,6 @@ main {
   position: relative;
 
   left: 8%;
-  /*transform: translate(-50%, -100%);*/
 
 }
 
@@ -68,7 +62,6 @@ main {
 }
 
 .navbar-toggler {
-  /*padding: .25rem .75rem;*/
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -81,9 +74,7 @@ main {
 
 .parent-grid{
   display: grid;
-  /*grid-area:*/
   grid-template-columns: 3fr 2fr;
-  /*gap 10pc;*/
   height: 500px;
   background-color: #90937c;
 }
@@ -98,10 +89,7 @@ main {
 
 .child-grid{
   margin: auto;
-  /*align-items: center;*/
   justify-content: center;
-  /*background-color: pink;*/
-  /*text-align: center;*/
 }
 
 .mission-statement {
@@ -114,7 +102,6 @@ main {
 }
 .content{
   flex: 1 1 auto;
-  /*padding-top: 100px;*/
   justify-content: center;
   align-items: center;
 }
@@ -134,14 +121,6 @@ flex: 1;
 }
 
 .header-nav-wrapper{
-  /*color: white; /*#A2ABA8;*/
-  /*font-size: 120%;*/
-  /*text-align: right;  xx*/
-  /*padding-left: .6vw;  xx/
-  /*float:right;*/
-  /*justify-content: flex-end;*/
-  /*display: inline;*/
-  /*whitespace: nowrap;*/
   flex: 2;
   display: flex;
   justify-content: flex-end;

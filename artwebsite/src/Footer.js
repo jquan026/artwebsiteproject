@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { BsInstagram } from "react-icons/bs";
-import { AiOutlineFacebook } from "react-icons/ai";
 import { FaFacebookSquare } from "react-icons/fa";
 import './Footer.css'
-import FAQ from "./FAQ"
 import paintbrush from "./img/footerimg.webp";
 
 const Footer = () => {

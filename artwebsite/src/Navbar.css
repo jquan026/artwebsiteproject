@@ -13,7 +13,6 @@
 .nav-logo img {
   width: 400px;
   height: auto;
-  /*object-fit: contain;*/
 
   @media(max-width: 768px) {
         width: 300px;
@@ -68,11 +67,6 @@
   align-items: center;
 }
 
-/* .nav-links:hover {
-  background-color: #5B5B5B;
-  border-radius: 5px;
-} */
-
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -126,7 +120,6 @@
     transform: none;
   }
 }
-/* break */
 
 .dropdown-link {
   color: white;
@@ -154,7 +147,6 @@
 }
 
 .navbar-toggler {
-  /*padding: .25rem .75rem;*/
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -171,7 +163,6 @@
 }
 
 .navbar-toggler-icon {
-  /*background-image: url('img/navbtn.png');*/
   width: 40px;
   height: auto;
   cursor: pointer;
@@ -232,7 +223,3 @@
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
-
-/*.overlay a:hover + .overlay-content-hidden {
-    display:block;
-} */
