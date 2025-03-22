@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Logo from "./Logo"
-import Homepage from './Homepage';
 import Homepage2 from './Homepage2';
+import "./App.css"
 import Footer from "./Footer"
 import FAQ from './FAQ';
 import Team from "./Team";
