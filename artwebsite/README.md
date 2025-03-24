@@ -1,4 +1,4 @@
-# Art With Larisse - 
+# Art With Larisse - Website Redesign
 
 This project is a redesigned version of the original website, created to better showcase Larisse’s art class offerings and visual style.
 
@@ -14,7 +14,7 @@ Art With Larisse is a San Diego–based business offering engaging art classes f
 
 This revamp was a collaborative effort:
 
-- Larisse & Charles Robinson– Provided layout ideas and feedback based on the original site  
+- Larisse & Charles Robinson – Provided layout ideas and feedback based on the original site  
 - Alice Hua– Developer and design collaborator  
 - Jenny Quan – Developer and design collaborator 
 
