@@ -12,7 +12,7 @@ Art With Larisse is a San Diego–based business offering engaging art classes f
 
 ##  Collaboration
 
-This revamp was a collaborative effort:
+Contributors:
 
 - Larisse & Charles Robinson – Provided layout ideas and feedback based on the original site  
 - Alice Hua– Developer and design collaborator  
