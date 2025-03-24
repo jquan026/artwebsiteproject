@@ -1,9 +1,9 @@
 import React from "react";
 import "./Team.css";
-import Larisse from "./img/instruc-larisse.avif";
-import Jessica from "./img/instruc-jessica.avif";
-import Jelisa from "./img/instruc-jelisa.avif";
-import Macie from "./img/instruc-macie.avif";
+import Larisse from "../img/TeamImg/instruc-larisse.avif";
+import Jessica from "../img/TeamImg/instruc-jessica.avif";
+import Jelisa from "../img/TeamImg/instruc-jelisa.avif";
+import Macie from "../img/TeamImg/instruc-macie.avif";
 
 const Team = () => {
   return (

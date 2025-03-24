@@ -1,9 +1,9 @@
 import React from 'react';
 import "./AcrylicPaintEvents.css"
-import paintEvent1 from "./img/paintEvent1.avif";
-import paintEvent2 from "./img/paintEvent2.avif";
-import paintEvent3 from "./img/paintEvent3.avif";
-import paintEvent4 from "./img/paintEvent4.avif";
+import paintEvent1 from "../img/PaintPartiesImg/paintEvent1.avif";
+import paintEvent2 from "../img/PaintPartiesImg/paintEvent2.avif";
+import paintEvent3 from "../img/PaintPartiesImg/paintEvent3.avif";
+import paintEvent4 from "../img/PaintPartiesImg/paintEvent4.avif";
 
 const AcrylicPaintEvents = () => {
   return (

@@ -1,25 +1,25 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Navbar';
-import Logo from "./Logo"
-import Homepage2 from './Homepage2';
+import Navbar from './NavigationBar/Navbar';
+import Logo from "./Logo/Logo"
+import Homepage2 from './Homepage/Homepage2';
 import "./App.css"
-import Footer from "./Footer"
-import FAQ from './FAQ';
-import Team from "./Team";
-import StudioPolicies from './StudioPolicies';
-import BirthdayParties from './BirthdayParties';
-import LocationsLaMesa from './LocationsLaMesa';
-import LocationsSantee from "./LocationsSantee";
-import LocationsBonita from "./LocationsBonita";
-import AdultArtClasses from './AdultArtClasses';
-import RegularClasses from './RegularClasses';
-import ScoutClasses from './ScoutClasses';
-import AcrylicPaintEvents from "./AcrylicPaintEvents";
-import CharterSchool from "./CharterSchool";
-import MissionStatement from "./MissionStatement";
-import SummerCamp from "./SummerCamp";
-import TuitionRates from "./TuitionRates";
+import Footer from "./Footer/Footer"
+import FAQ from './About/FAQ';
+import Team from "./About/Team";
+import StudioPolicies from './Tuition/StudioPolicies';
+import BirthdayParties from './ArtPartiesAndEvents/BirthdayParties';
+import LocationsLaMesa from './Locations/LocationsLaMesa';
+import LocationsSantee from "./Locations/LocationsSantee";
+import LocationsBonita from "./Locations/LocationsBonita";
+import AdultArtClasses from './ArtClasses/AdultArtClasses';
+import RegularClasses from './ArtClasses/RegularClasses';
+import ScoutClasses from './ArtPartiesAndEvents/ScoutClasses';
+import AcrylicPaintEvents from "./ArtPartiesAndEvents/AcrylicPaintEvents";
+import CharterSchool from "./Tuition/CharterSchool";
+import MissionStatement from "./About/MissionStatement";
+import SummerCamp from "./SummerArtCamps/SummerCamp";
+import TuitionRates from "./Tuition/TuitionRates";
 
 
 function App() {

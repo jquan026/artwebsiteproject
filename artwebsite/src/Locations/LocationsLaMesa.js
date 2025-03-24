@@ -2,18 +2,18 @@ import React from "react";
 import './LocationsStudio.css';
 import { Link } from "react-router-dom";
 
-import bonitaLocationInside from "./img/bonitalocationinside.avif";
-import referAFriendPicture from "./img/bonitaArt1.avif";
+import laMesaLocationInside from "../img/LocationsImg/lamesalocationinside.avif";
+import referAFriendPicture from "../img/LocationsImg/laMesaArt1.avif";
 
-const LocationsBonita = () => {
+const LocationsLaMesa = () => {
   return (
     <div className="locations-studio">
         <div className="title-text">
-            <h2>Bonita Location</h2>
-            <p>Established in 2015</p>
+            <h2>La Mesa Location</h2>
+            <p>Established in 2001</p>
         </div>
         <div className="studio-photo">
-            <img src={bonitaLocationInside} alt="Bonita Interior" className="studio-pics"></img>
+            <img src={laMesaLocationInside} alt="La Mesa Interior" className="studio-pics"></img>
         </div>
         <div className="top-content">
             <h4>We offer a free introductory lesson to students ages 5-17!</h4>
@@ -30,12 +30,12 @@ const LocationsBonita = () => {
                 <div className="detail-top-rect">
                     <div className="address-text">
                         <h4 className="detail-topic">Address:</h4>
-                        <p className="detail-content">4510 Bonita Road,</p>
-                        <p className="detail-content">Bonita, CA 91902</p>
+                        <p className="detail-content">6119 Lake Murray Blvd.</p>
+                        <p className="detail-content">La Mesa, CA 91942</p>
                     </div>
                     <div className="contact-info-text">
                         <h4 className="detail-topic">Contact Information:</h4>
-                        <p className="detail-content">(619) 508-1299</p>
+                        <p className="detail-content">(619) 857-1270</p>
                     </div>
                 </div>
                 <div className="detail-middle-rect">
@@ -45,31 +45,32 @@ const LocationsBonita = () => {
                     <div className="schedule-boxes">
                         <div className="schedule-box-index">
                             <p>Monday</p>
-                            <h4>3:30 - 4:45 PM</h4>
-                            <h4>5:00 - 6:15 PM</h4>
-                        </div>
-                        <div className="schedule-box-index">
-                            <p>Tuesday</p>
-                            {/* <h4>3:00 - 4:30 PM</h4> */}
+                            <h4>3:00 - 4:15 PM</h4>
                             <h4>4:30 - 5:45 PM</h4>
                             <h4>6:00 - 7:15 PM</h4>
                         </div>
                         <div className="schedule-box-index">
+                            <p>Tuesday</p>
+                            <h4>9:00 - 10:15 AM</h4>
+                            <h4>10:30 - 11:45 AM</h4>
+                            <h4>3:00 - 4:15 PM</h4>
+                            <h4>4:30 - 5:45 PM</h4>
+                        </div>
+                        <div className="schedule-box-index">
                             <p>Wednesday</p>
-                            <h4>3:30 - 4:45 PM</h4>
-                            <h4>5:00 - 6:15 PM</h4>
-                            <h4>6:30 - 7:45 PM</h4>
+                            <h4>3:00 - 4:15 PM</h4>
+                            <h4>4:30 - 5:45 PM</h4>
                         </div>
                         <div className="schedule-box-index">
                             <p>Thursday</p>
-                            <h4>3:30 - 4:45 PM</h4>
-                            <h4>5:00 - 6:15 PM</h4>
-                            <h4>6:30 - 7:45 PM</h4>
+                            <h4>3:00 - 4:15 PM</h4>
+                            <h4>4:30 - 5:45 PM</h4>
+                            <h4>6:00 - 7:15 PM</h4>
                         </div>
                         <div className="schedule-box-index">
                             <p>Friday</p>
-                            <h4>4:00 - 5:15 PM</h4>
-                            <h4>5:30 - 6:45 PM</h4>
+                            <h4>3:15 - 4:30 PM</h4>
+                            <h4>4:45 - 6:00 PM</h4>
                         </div>
                         <div className="schedule-box-index">
                             <p>Saturday</p>
@@ -100,11 +101,11 @@ const LocationsBonita = () => {
                     </div>
                 </div>
                 <div className="refer-a-friend-photo">
-                    <img src={referAFriendPicture} alt="Skunk in between flowers art piece" className="refer-a-friend-pic"></img>
+                    <img src={referAFriendPicture} alt="Girl Art Piece" className="refer-a-friend-pic"></img>
                 </div>
             </div>
     </div>
   )
 }
 
-export default LocationsBonita
+export default LocationsLaMesa

@@ -1,8 +1,8 @@
 import React from "react";
 import './LocationCards.css';
-import lamesafront from "./img/lamesafront.avif"
-import santeefront from "./img/santeeimg.avif"
-import bonitafront from "./img/bonitaimg.avif"
+import lamesafront from "../img/LocationCardsImg/lamesafront.avif"
+import santeefront from "../img/LocationCardsImg/santeeimg.avif"
+import bonitafront from "../img/LocationCardsImg/bonitaimg.avif"
 
 const LocationCards = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; 
-import logo from "./img/awlHeaderLogo.avif";
+import logo from "../img/LogoImg/awlHeaderLogo.avif";
 import "./Logo.css";
-import TemporaryDrawer from "./Menu";
+import TemporaryDrawer from "../Menu";
 
 function Logo() {
   const [drawerOpen, setDrawerOpen] = useState(false);

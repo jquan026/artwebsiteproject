@@ -1,5 +1,5 @@
 import React from "react"
-import missionimg from "./img/homemissionimg.avif"
+import missionimg from "../img/HomepageImg/homemissionimg.avif"
 import "./Mission.css"
 
 const Mission = () => {

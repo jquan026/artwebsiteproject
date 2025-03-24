@@ -2,9 +2,9 @@ import React from "react";
 import './AdultArtClasses.css';
 import { Link } from "react-router-dom";
 
-import paintingPicture from "./img/adultPortrait.avif";
-import aboutTrialsPicture from "./img/lizardDrawing.avif";
-import adultClassPaintingPicture from "./img/adultclasspaintingpicture.avif";
+import paintingPicture from "../img/AdultArtClassesImg/adultPortrait.avif";
+import aboutTrialsPicture from "../img/AdultArtClassesImg/lizardDrawing.avif";
+import adultClassPaintingPicture from "../img/AdultArtClassesImg/adultclasspaintingpicture.avif";
 
 const AdultArtClasses = () => {
   return (

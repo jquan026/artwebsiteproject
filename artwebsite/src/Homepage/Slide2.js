@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 import "./SideInfoSlide.css";
-import slide1 from "./slideshow/slide1.webp";
-import slide2 from "./slideshow/slide2.avif";
-import slide3 from "./img/bonitaArt1.avif";
-import slide4 from "./slideshow/slide4.avif";
+import slide1 from "../slideshow/slide1.webp";
+import slide2 from "../slideshow/slide2.avif";
+import slide3 from "../img/LocationsImg/bonitaArt1.avif";
+import slide4 from "../slideshow/slide4.avif";
 
 const Slide = () => {
   const images = [slide1, slide2, slide3];

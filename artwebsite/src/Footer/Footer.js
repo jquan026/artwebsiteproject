@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 import './Footer.css'
-import paintbrush from "./img/footerimg.webp";
+import paintbrush from "../img/FooterImg/footerimg.webp";
 
 const Footer = () => {
   

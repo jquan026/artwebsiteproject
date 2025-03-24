@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './ScoutClasses.css';
-import ScoutEmail from './emails/ScoutBooking'
+import ScoutEmail from '../emails/ScoutBooking'
 
-import aboutTrialsPicture from "./img/girlScoutGroupPicture.avif";
-import gsdrawingpic from "./img/girlScoutDrawingPicture.avif";
+import aboutTrialsPicture from "../img/ScoutClassesImg/girlScoutGroupPicture.avif";
+import gsdrawingpic from "../img/ScoutClassesImg/girlScoutDrawingPicture.avif";
 
 const ScoutClasses = () => {
   return (

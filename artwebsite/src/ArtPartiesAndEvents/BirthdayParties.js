@@ -1,10 +1,10 @@
 import React from 'react'
 import './BirthdayParties.css'
-import BirthdayBooking from './emails/BirthdayBooking'
+import BirthdayBooking from '../emails/BirthdayBooking'
 
-import bdayArtPartyPic from "./img/bdayArtPartyPicture.avif";
-import bdayArtPartyGamePic from "./img/birthdayArtPartyGamePicture.avif";
-import bdayArtParty1 from "./img/birthdayParty1.avif";
+import bdayArtPartyPic from "../img/bdayArtPartyPicture.avif";
+import bdayArtPartyGamePic from "../img/birthdayArtPartyGamePicture.avif";
+import bdayArtParty1 from "../img/birthdayParty1.avif";
 
 const BirthdayParties = () => {
   return (

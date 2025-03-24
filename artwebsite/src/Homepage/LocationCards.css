@@ -83,14 +83,14 @@
 }
 
 .card-front {
-  background: linear-gradient(rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2)), url('./img/card-front-texture.avif');
+  background: linear-gradient(rgba(253, 253, 253, 0.2), rgba(253, 253, 253, 0.2)), url('../img/BGTexture/card-front-texture.avif');
   background-size: cover;
   font-weight: bold;
   font-size: 25px;
 }
 
 .card-back {
-  background: linear-gradient(rgba(253, 253, 253, 0.5), rgba(253, 253, 253, 0.5)), url('./img/card-back-texture.avif');
+  background: linear-gradient(rgba(253, 253, 253, 0.5), rgba(253, 253, 253, 0.5)), url('../img/BGTexture/card-back-texture.avif');
   background-size: cover;
   transform: rotateY(180deg)
 }

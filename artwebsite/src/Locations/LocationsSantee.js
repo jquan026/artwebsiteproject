@@ -2,8 +2,8 @@ import React from "react";
 import './LocationsStudio.css';
 import { Link } from "react-router-dom";
 
-import santeeLocationInside from "./img/santeelocationinside.avif";
-import referAFriendPicture from "./img/santeeArt1.avif";
+import santeeLocationInside from "../img/LocationsImg/santeelocationinside.avif";
+import referAFriendPicture from "../img/LocationsImg/santeeArt1.avif";
 
 const LocationsSantee = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
 import "./SummerCamp.css";
-import SummerCampBooking from "./emails/CampRSVP";
-import Camp1 from "./img/artcamp1.avif";
-import Camp2 from "./img/artcamp2.avif";
-import Camp3 from "./img/artcamp3.avif";
-import Camp4 from "./img/artcamp4.avif";
-import Camp5 from "./img/artcamp5.avif";
+import SummerCampBooking from "../emails/CampRSVP";
+import Camp1 from "../img/SummerArtCampsImg/artcamp1.avif";
+import Camp2 from "../img/SummerArtCampsImg/artcamp2.avif";
+import Camp3 from "../img/SummerArtCampsImg/artcamp3.avif";
+import Camp4 from "../img/SummerArtCampsImg/artcamp4.avif";
+import Camp5 from "../img/SummerArtCampsImg/artcamp5.avif";
 
 const SummerCamp = () => {
   return (
