@@ -15,7 +15,7 @@
 
 .scout-intro-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center; 
     justify-content: space-between;
     gap: 25px;
@@ -28,11 +28,12 @@
   justify-content: center; 
   align-items: center; 
   text-align: center;
-  gap: 10px
+  gap: 10px;
+  margin-bottom: 30px;
 }
 
 .scout-intro-texts p {
-  text-align: left;
+  text-align: center;
 }
 
 .bg-rect {
@@ -44,7 +45,12 @@
 .img-photo {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.img-photo img{
+  height: 400px;
+  width: auto;
 }
 
 .photo-pic {
@@ -74,12 +80,22 @@
 
 .scout-detail{
   margin-bottom:20px;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .bg-rect-green {
-  border: 2px;
-  background: #DEE3D2;
-  border-radius: 0 0 230px 230px;
+  background-color: #dee3d2;
+  margin-bottom: 30px;
+  padding: 10px 30px;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
 }
 
 .scout-detail-content {
@@ -108,7 +124,8 @@
 }
 
 .img-photo2 {
-  text-align: center;
+  display:flex;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 90px;
 }
@@ -129,7 +146,7 @@
 .extra-details-content {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 90px;
   justify-content: space-around;
 }
@@ -171,8 +188,22 @@
     margin-right:20px;
   }
 
+  .img-photo{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    margin-right:15px;
+  }
+
+  .img-photo img {
+    height: 250px;
+    width: auto;
+  }
+
   .img-photo2 {
     text-align: center;
+    align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
   }

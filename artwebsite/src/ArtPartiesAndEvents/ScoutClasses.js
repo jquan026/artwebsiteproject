@@ -15,6 +15,9 @@ const ScoutClasses = () => {
       <div className="scout-intro">
         <div className="bg-rect">
           <div className="scout-intro-content">
+            <div className="img-photo">
+              <img src={aboutTrialsPicture} alt="Girl Scout Troop Holding Paintings"></img>
+            </div>
             <div className="scout-intro-texts">
               <p>
                 We welcome troops to join us for a group lesson at the studio to
@@ -25,9 +28,6 @@ const ScoutClasses = () => {
                 learning the basics of creating fine art, this lesson will be a
                 fun learning experience the scouts won't soon forget!
               </p>
-            </div>
-            <div className="img-photo">
-              <img src={aboutTrialsPicture} alt="Girl Scout Troop Holding Paintings" className="photo-pic"></img>
             </div>
           </div>
         </div>

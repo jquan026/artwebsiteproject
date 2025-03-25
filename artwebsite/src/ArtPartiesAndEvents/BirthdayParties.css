@@ -13,7 +13,7 @@
 
 .birthday-header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 50px; 
@@ -48,7 +48,7 @@
 
 .birthday-image img {
   display: block;
-  width: 300px;
+  width: 400px;
   height: auto; 
   border-radius: 10px; 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
@@ -63,6 +63,7 @@
   min-height: 100vh; 
   justify-content: center; 
   box-sizing: border-box;
+  margin-top:20px;
 }
 
 .birthday-section-block {
@@ -180,7 +181,7 @@
 
 @media (max-width: 1024px) {
   .birthday-header {
-    flex-direction: row; 
+    flex-direction: column;
     align-items: center; 
     justify-content: center; 
     text-align: center; 

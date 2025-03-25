@@ -11,6 +11,9 @@ const BirthdayParties = () => {
     <div className='birthday-section'>
       <p className="birthday-title">Celebrate Your Birthday With Us!</p>
       <div className="birthday-header">
+        <div className="birthday-image">
+          <img src={bdayArtPartyPic} alt="Girl using pastels on toucan art piece " className="pic-image"></img>
+        </div>
         <div className="birthday-intro">
           <div className="birthday-intro-desc">
             <p className="birthday-intro-desc-text bottom-spacing">
@@ -22,9 +25,6 @@ const BirthdayParties = () => {
               <BirthdayBooking />
             </p>
           </div>
-        </div>
-        <div className="birthday-image">
-          <img src={bdayArtPartyPic} alt="Girl using pastels on toucan art piece " className="pic-image"></img>
         </div>
       </div>
 
