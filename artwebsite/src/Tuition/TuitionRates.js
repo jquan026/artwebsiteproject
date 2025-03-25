@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const TuitionRates = () => {
   return (
     <div>
-      <div className="tuition-title">Tution Rates</div>
+      <div className="tuition-title">Tuition Rates</div>
       <div className="tuition-rates">
         <div className="tuition-cards">
           <div className="tuition-card">
@@ -18,7 +18,7 @@ const TuitionRates = () => {
               Discounted Tuition <span class="force-break">(12 weeks)</span>
             </p>
             <span className="tuition-price">$23/Class</span>
-            <p>Reserve a class for 12 counsecutive weeks</p>
+            <p>Reserve a class for 12 consecutive weeks</p>
           </div>
           <div className="tuition-card">
             <p>Adult students</p>
@@ -26,8 +26,8 @@ const TuitionRates = () => {
             <p>2x/month on Tuesdays from 6:00-8:30PM</p>
           </div>
         </div>
-        <ul>
-          <li className="bolded small-bottom-spacing">Regular monthly tuition:</li>
+        <div>
+          <p className="tuition-subtitle">Regular monthly tuition:</p>
           <ul>
             <li className="bottom-spacing">
               $25 per class. To reserve a spot in class, students must pay for
@@ -38,22 +38,24 @@ const TuitionRates = () => {
               of classes that we are open.
             </li>
           </ul>
-        </ul>
+        </div>
       </div>
 
       <div className="tuition-info">
         <p className="tuition-subtitle">
           Charter school students billing information:
         </p>
-        <p className="reg-font-size">
-          Please follow this <Link to="/charter-schools" className="charter-link">link</Link> to learn
-          more.
-        </p>
+        <ul>
+          <li className="reg-font-size">
+            Please follow this <Link to="/charter-schools" className="charter-link">link</Link> to learn
+            more.
+          </li>
+        </ul>
         <p className="tuition-subtitle">
           Discounted 3 month (12 weeks) tuition:
         </p>
         <ul>
-          <li>Rate of $23 per class</li>
+          <li>Rate of $23 per class.</li>
           <li>
             Must use in consecutive weeks - you are reserving a spot in a weekly
             class for 12 consecutive weeks.
