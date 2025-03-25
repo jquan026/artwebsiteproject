@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './LocationCards.css';
 import lamesafront from "../img/LocationCardsImg/lamesafront.avif"
 import santeefront from "../img/LocationCardsImg/santeeimg.avif"
@@ -32,9 +33,9 @@ const LocationCards = () => {
               <a className="card-email" href="mailto:artwithlarisse@gmail.com">
                 artwithlarisse@gmail.com
               </a>
-              <a href="/locations/la-mesa" className="studio-page-link">
+              <Link to="/locations/la-mesa" className="studio-page-link">
                 View Studio
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -59,9 +60,9 @@ const LocationCards = () => {
               <a className="card-email" href="mailto:artwithlarisse@gmail.com">
                 artwithlarisse@gmail.com
               </a>
-              <a href="/locations/santee" className="studio-page-link">
+              <Link to="/locations/santee" className="studio-page-link">
                 View Studio
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -85,9 +86,9 @@ const LocationCards = () => {
               <a className="card-email" href="mailto:artwithlarisse@gmail.com">
                 artwithlarisse@gmail.com
               </a>
-              <a href="/locations/bonita" className="studio-page-link">
+              <Link to="/locations/bonita" className="studio-page-link">
                 View Studio
-              </a>
+              </Link>
             </div>
           </div>
         </div>
