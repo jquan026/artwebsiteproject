@@ -2,7 +2,7 @@ name: Sync from upstream
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Every minute
+    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     branches:
