@@ -1,12 +1,12 @@
 name: Sync from upstream
 
-permissions:   
-  contents: write
-
 on:
   schedule:
-    - cron: '*/5 * * * *' 
+    - cron: '*/5 * * * *'  
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   sync:
@@ -28,10 +28,16 @@ jobs:
         run: |
           git remote add upstream https://github.com/LostInLogic/artwebsiteproject.git
           git fetch upstream
+          git log upstream/main -n 1
 
       - name: Merge upstream/main
         run: |
           git merge upstream/main --no-edit --allow-unrelated-histories || echo "No merge needed"
+
+      - name: Show status
+        run: |
+          git status
+          git log -3
 
       - name: Push if changes
         run: |
