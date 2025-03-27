@@ -175,6 +175,34 @@
   color: black;
 }
 
+@media (max-width: 400px) {
+  .social-media-section {
+    padding: 25px;
+
+  }
+
+  .dual-image-container {
+    width: 100%;
+  }
+  .remove-div{
+    display: none;
+  }
+
+  .dual-image-container {
+    height: 300px;
+  }
+
+  .social-text{
+    margin-top:40px;
+    margin-right:20px;
+    margin-left:10px;
+  }
+
+  .slide-icons{
+    margin-bottom:30px;
+  }
+}
+
 @media (max-width: 1024px) {
   .embla {
     height: 450px; 
