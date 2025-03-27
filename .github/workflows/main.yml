@@ -17,17 +17,15 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
+      
+          git pull --unshallow
+      
           git remote add upstream https://github.com/LostInLogic/artwebsiteproject.git
           git fetch upstream
-
-          git checkout -b main origin/main
-          git merge --no-edit upstream/main || echo "No changes to merge"
+      
+          git merge --no-edit upstream/main
           git push origin main
 
-          git checkout master || echo "No master branch to update"
-          git merge --no-edit upstream/master || echo "No changes on master"
-          git push origin master || echo "No master branch to push"
 
 permissions:
   contents: write
