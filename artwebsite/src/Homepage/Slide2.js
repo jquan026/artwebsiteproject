@@ -31,7 +31,7 @@ const Slide = () => {
               {index === images.length - 1 ? (
                 <div className="last-slide">
                   <div className="dual-image-container">
-                    <div className="image-container">
+                    <div className="image-container remove-div">
                       <img
                         src={slide3}
                         alt="Art by Carolina U."
