@@ -55,7 +55,7 @@ const TuitionRates = () => {
           Discounted 3 month (12 weeks) tuition:
         </p>
         <ul>
-          <li>Rate of $23 per class.</li>
+          <li>$23 per class.</li>
           <li>
             Must use in consecutive weeks - you are reserving a spot in a weekly
             class for 12 consecutive weeks.
