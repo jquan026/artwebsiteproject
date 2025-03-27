@@ -278,9 +278,10 @@
     width: 50%;
   }
 
-  .image-caption-bottom {
-    font-size: 14px;
+  .image-caption-bottom, .image-caption-top {
+    display: none;
   }
+
 }
 
 @media (max-width: 768px) {
