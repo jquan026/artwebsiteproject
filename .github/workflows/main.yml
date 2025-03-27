@@ -1,49 +1,16 @@
-name: Sync from upstream
+name: Sync from upstream test
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  
+    - cron: '*/2 * * * *'  
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sync:
+  test-cron:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout fork
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up git config
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Add upstream and fetch
-        run: |
-          git remote add upstream https://github.com/LostInLogic/artwebsiteproject.git
-          git fetch upstream
-          git log upstream/main -n 1
-
-      - name: Merge upstream/main
-        run: |
-          git merge upstream/main --no-edit --allow-unrelated-histories || echo "No merge needed"
-
-      - name: Show status
-        run: |
-          git status
-          git log -3
-
-      - name: Push if changes
-        run: |
-          if [ "$(git status --porcelain)" != "" ]; then
-            git push origin main
-            echo "✅ Synced with upstream"
-          else
-            echo "✅ Already up to date"
-          fi
+      - name: Print timestamp
+        run: echo "⏰ Cron job ran at $(date)"
